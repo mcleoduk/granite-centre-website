@@ -1,8 +1,0 @@
-[    1505ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.caesarstoneus.com/blog/quartz-vs-granite-countertops/:0
-[    1770ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.caesarstoneus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
-[    1804ms] [WARNING] Cookiebot buttons not found @ https://www.caesarstoneus.com/wp-content/themes/Caesarstone-US/cache/assets/en_US/common-assets.js?ver=1780417010:233
-[    2230ms] [WARNING] The configuration for accessWidget is being loaded from the dashboard. 
-The object passed to the 'acsbjs.init' function is being ignored. 
-To suppress this warning, remove the configuration object from the 'acsbjs.init' method. @ https://acsbapp.com/apps/app/dist/js/app.js:0
-[    2540ms] [LOG] opt-out @ https://www.caesarstoneus.com/wp-content/plugins/complianz-gdpr-premium-multisite/cookiebanner/js/complianz.min.js?ver=1766572720:0
-[    2863ms] [WARNING] [Meta pixel] 1861986388060792 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more. @ https://connect.facebook.net/en_US/fbevents.js:183
