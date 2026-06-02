@@ -73,7 +73,7 @@
         url('images/black-granite/Fusion-Black-Granite.jpg') center center / cover no-repeat;
     }
     .page-hero__content { position: relative; z-index: 1; max-width: 760px; padding: 60px 20px; }
-    .section-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; display: block; }
+    .section-label { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; display: block; }
     .page-hero__content h1 { font-family: 'Playfair Display', serif; font-size: clamp(38px, 6vw, 72px); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 24px; }
     .page-hero__content h1 em { font-style: italic; color: var(--gold); }
     .page-hero__content p { font-size: clamp(15px, 2vw, 18px); color: var(--muted); font-weight: 300; line-height: 1.7; max-width: 560px; margin: 0 auto 32px; }
@@ -112,11 +112,11 @@
     .stone-card:hover .stone-card__image img { transform: scale(1.06); }
     .stone-card__overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(17,17,17,0.65) 0%, transparent 55%); }
     .stone-card__body { padding: 22px 20px 24px; }
-    .stone-card__type { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; display: block; }
+    .stone-card__type { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; display: block; }
     .stone-card h3 { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; margin-bottom: 8px; line-height: 1.2; }
     .stone-card__desc { color: var(--muted); font-size: 13px; line-height: 1.7; margin-bottom: 14px; }
     .stone-card__traits { display: flex; flex-wrap: wrap; gap: 6px; }
-    .trait { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--border); padding: 3px 8px; }
+    .trait { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--border); padding: 3px 8px; }
 
     /* ─── FEATURED STONES ─────────────────────────── */
     .featured-stones { padding: 0; }
@@ -169,7 +169,7 @@
     .cost__bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); margin: 48px 0; }
     .cost__band { background: var(--bg3); padding: 36px 28px; text-align: left; border-top: 2px solid var(--border); }
     .cost__band.featured { border-top-color: var(--gold); }
-    .cost__band-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; display: block; }
+    .cost__band-label { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; display: block; }
     .cost__band-name { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; margin-bottom: 8px; }
     .cost__band-price { font-size: 24px; font-weight: 600; color: var(--gold); margin-bottom: 10px; font-family: 'Playfair Display', serif; }
     .cost__band p { color: var(--muted); font-size: 13px; line-height: 1.7; }
@@ -255,7 +255,7 @@
   </div>
 
   <!-- NAVIGATION -->
-  <nav id="navbar">
+  <nav id="navbar" aria-label="Main navigation">
     <a href="index.html" class="nav__logo-link"><img src="logo.png" class="nav__logo-img" alt="The Granite Centre" width="121" height="66" /></a>
     <ul class="nav__links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -268,6 +268,8 @@
       <span></span><span></span><span></span>
     </button>
   </nav>
+
+  <main>
 
   <!-- HERO -->
   <section class="page-hero">
@@ -691,6 +693,8 @@
       <a href="granite-vs-quartz.html" class="btn-outline">Granite vs Quartz Guide</a>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer>
