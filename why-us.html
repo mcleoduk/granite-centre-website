@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Choose Us | The Granite Centre — Granite Worktops Essex</title>
+  <meta name="description" content="Six reasons to choose The Granite Centre for your granite or quartz worktop. Local Essex expertise, 200+ slabs in stock, full workmanship guarantee." />
+  <meta property="og:title" content="Why Choose The Granite Centre for Your Worktop?" />
+  <meta property="og:description" content="Local Essex expertise, 200+ slabs in stock, precision CNC cutting, and a full workmanship guarantee. Find out what makes us different." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #111111;
+      --bg2:      #1a1a1a;
+      --bg3:      #222222;
+      --text:     #f5f0eb;
+      --muted:    #a89f95;
+      --gold:     #c9a96e;
+      --gold-lt:  #dfc08a;
+      --border:   rgba(201,169,110,0.25);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    /* ─── TOP BAR ─────────────────────────────────── */
+    .top-bar {
+      background: #0a0a0a;
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .top-bar a { color: var(--gold); text-decoration: none; }
+    .top-bar a:hover { color: var(--gold-lt); }
+
+    .top-bar__cta {
+      background: var(--gold);
+      color: #111 !important;
+      padding: 6px 18px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+
+    .top-bar__cta:hover { background: var(--gold-lt) !important; }
+
+    /* ─── NAV ─────────────────────────────────────── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17,17,17,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .nav__logo-link { display: flex; align-items: center; text-decoration: none; }
+    .nav__logo-img { height: 66px; width: auto; filter: invert(1); mix-blend-mode: screen; }
+
+    .nav__links {
+      display: flex;
+      list-style: none;
+      gap: 36px;
+    }
+
+    .nav__links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav__links a:hover,
+    .nav__links a.active { color: var(--gold); }
+
+    .nav__hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .nav__hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    /* ─── PAGE HERO ───────────────────────────────── */
+    .page-hero {
+      min-height: 60vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .page-hero__bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(160deg,
+          rgba(0,0,0,0.70) 0%,
+          rgba(0,0,0,0.45) 50%,
+          rgba(0,0,0,0.75) 100%),
+        url('dark-granite.jpg') center center / cover no-repeat;
+      background-attachment: fixed, fixed;
+    }
+
+    .page-hero__content {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+      padding: 60px 20px;
+    }
+
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .page-hero__content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(38px, 6vw, 68px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+
+    .page-hero__content h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .page-hero__content p {
+      font-size: clamp(15px, 2vw, 18px);
+      color: var(--muted);
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      line-height: 1.7;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    /* ─── REASONS ─────────────────────────────────── */
+    .reasons {
+      padding: 100px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .reasons__header {
+      text-align: center;
+      margin-bottom: 72px;
+    }
+
+    .reasons__header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .reasons__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+    }
+
+    .reason {
+      background: var(--bg);
+      padding: 52px 40px;
+      position: relative;
+      transition: background 0.3s;
+    }
+
+    .reason:hover { background: var(--bg2); }
+
+    .reason__number {
+      font-family: 'Playfair Display', serif;
+      font-size: 56px;
+      font-weight: 700;
+      color: rgba(201,169,110,0.12);
+      line-height: 1;
+      margin-bottom: 20px;
+      transition: color 0.3s;
+    }
+
+    .reason:hover .reason__number { color: rgba(201,169,110,0.22); }
+
+    .reason__icon {
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      transition: border-color 0.3s;
+    }
+
+    .reason:hover .reason__icon { border-color: var(--gold); }
+
+    .reason__icon svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--gold);
+      fill: none;
+      stroke-width: 1.5;
+    }
+
+    .reason h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .reason p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    /* ─── PROCESS ─────────────────────────────────── */
+    .process {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 100px 40px;
+    }
+
+    .process__inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .process__header {
+      text-align: center;
+      margin-bottom: 72px;
+    }
+
+    .process__header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .process__steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      position: relative;
+    }
+
+    .process__steps::before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: calc(12.5% + 20px);
+      right: calc(12.5% + 20px);
+      height: 1px;
+      background: var(--border);
+    }
+
+    .process__step {
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .process__step-num {
+      width: 56px;
+      height: 56px;
+      border: 1px solid var(--border);
+      background: var(--bg2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--gold);
+      position: relative;
+      z-index: 1;
+    }
+
+    .process__step h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .process__step p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    /* ─── PROMISE ─────────────────────────────────── */
+    .promise {
+      padding: 100px 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .promise h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 4vw, 52px);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    .promise h2 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .promise p {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.85;
+      max-width: 680px;
+      margin: 0 auto 48px;
+    }
+
+    .promise__items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      margin-bottom: 56px;
+      text-align: left;
+    }
+
+    .promise__item {
+      background: var(--bg);
+      padding: 36px 32px;
+      border-top: 2px solid var(--gold);
+    }
+
+    .promise__item h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .promise__item p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    /* ─── CTA STRIP ───────────────────────────────── */
+    .cta-strip {
+      background: var(--bg3);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 80px 40px;
+      text-align: center;
+    }
+
+    .cta-strip h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 3vw, 40px);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .cta-strip p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 36px;
+    }
+
+    .cta-strip__btns {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* ─── BUTTONS ─────────────────────────────────── */
+    .btn-primary {
+      background: var(--gold);
+      color: #111;
+      padding: 15px 36px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-primary:hover { background: var(--gold-lt); transform: translateY(-1px); }
+
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 15px 36px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline-block;
+      transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    }
+
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
+
+    /* ─── FOOTER ──────────────────────────────────── */
+    footer {
+      background: #0a0a0a;
+      border-top: 1px solid var(--border);
+      padding: 64px 40px 32px;
+    }
+
+    .footer__inner { max-width: 1200px; margin: 0 auto; }
+
+    .footer__logo-img { height: 52px; width: auto; filter: invert(1); mix-blend-mode: screen; margin-bottom: 16px; display: block; }
+
+    .footer__top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 56px;
+    }
+
+    .footer__brand p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.8;
+      max-width: 280px;
+    }
+
+    .footer__col h4 {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .footer__col ul { list-style: none; }
+    .footer__col ul li { margin-bottom: 10px; }
+
+    .footer__col ul a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .footer__col ul a:hover { color: var(--gold); }
+
+    .footer__col address {
+      font-style: normal;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+
+    .footer__col address a { color: var(--gold); text-decoration: none; }
+
+    .footer__bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer__bottom p { color: var(--muted); font-size: 13px; }
+
+    .footer__socials { display: flex; gap: 16px; }
+
+    .footer__socials a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s;
+      text-decoration: none;
+    }
+
+    .footer__socials a:hover { border-color: var(--gold); }
+    .footer__socials svg { width: 15px; height: 15px; stroke: var(--muted); fill: none; stroke-width: 1.5; }
+    .footer__socials a:hover svg { stroke: var(--gold); }
+
+    /* ─── RESPONSIVE ──────────────────────────────── */
+    @media (max-width: 900px) {
+      .top-bar { padding: 10px 20px; }
+      nav { padding: 0 20px; }
+      .nav__links { display: none; }
+      .nav__links.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: rgba(17,17,17,0.98);
+        padding: 24px 20px;
+        gap: 20px;
+        border-bottom: 1px solid var(--border);
+        z-index: 99;
+      }
+      .nav__hamburger { display: flex; }
+
+      .reasons { padding: 64px 20px; }
+      .reasons__grid { grid-template-columns: 1fr; }
+
+      .process { padding: 64px 20px; }
+      .process__steps { grid-template-columns: 1fr 1fr; gap: 40px; }
+      .process__steps::before { display: none; }
+
+      .promise { padding: 64px 20px; }
+      .promise__items { grid-template-columns: 1fr; }
+
+      .cta-strip { padding: 64px 20px; }
+
+      footer { padding: 48px 20px 24px; }
+      .footer__top { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer__brand { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 480px) {
+      .top-bar { font-size: 11px; padding: 8px 16px; flex-direction: column; gap: 8px; text-align: center; }
+      .process__steps { grid-template-columns: 1fr; }
+      .cta-strip__btns { flex-direction: column; align-items: center; }
+      .btn-primary, .btn-outline { width: 100%; max-width: 300px; text-align: center; }
+      .footer__top { grid-template-columns: 1fr; }
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+      .page-hero__bg { background-attachment: scroll, scroll; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span>Call us: <a href="tel:+441279443081">01279 443081</a></span>
+    <a href="index.html#contact" class="top-bar__cta">Request a Quote</a>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <a href="index.html" class="nav__logo-link"><img src="logo.png" class="nav__logo-img" alt="The Granite Centre" /></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#products">Products</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="why-us.html" class="active">Why Us</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <div class="page-hero__content">
+      <span class="section-label">The Granite Centre Difference</span>
+      <h1>Why Choose <em>Us</em></h1>
+      <p>Over a decade of experience, an unmatched selection, and a team that takes genuine pride in every surface we supply and fit.</p>
+    </div>
+  </section>
+
+  <!-- SIX REASONS -->
+  <section class="reasons">
+    <div class="reasons__header">
+      <span class="section-label">Our Strengths</span>
+      <h2>Six Reasons to Choose The Granite Centre</h2>
+    </div>
+    <div class="reasons__grid">
+
+      <div class="reason">
+        <div class="reason__number">01</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Local Essex Expertise</h3>
+        <p>Based in Harlow, we've been supplying and fitting granite across Essex and Hertfordshire for over a decade. We know the local area, and our reputation is built on word of mouth from satisfied customers close to home.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason__number">02</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>Over 200 Slabs in Stock</h3>
+        <p>Our showroom holds one of the largest selections of granite, marble, and quartz in the region. You see and touch the full-size slab before committing — not a small sample or a screen image.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason__number">03</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Managed Start to Finish</h3>
+        <p>From your first showroom visit to the final polish on installation day, everything is handled in-house. No subcontractors, no handoffs, no excuses — just one team responsible for the entire job.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason__number">04</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3>Precision CNC Cutting</h3>
+        <p>Every worktop is templated and cut using the latest CNC and waterjet technology. Tolerances are measured to the millimetre, ensuring joints are tight, edges are crisp, and the fit is perfect every time.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason__number">05</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Workmanship Guarantee</h3>
+        <p>Every installation we carry out comes with a comprehensive workmanship guarantee. If anything isn't right, we put it right — no quibble, no charge. Your peace of mind is included in the price.</p>
+      </div>
+
+      <div class="reason">
+        <div class="reason__number">06</div>
+        <div class="reason__icon">
+          <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Transparent, Fair Pricing</h3>
+        <p>We provide detailed, itemised quotes with no hidden costs. The price you're quoted is the price you pay. We're happy to visit your home for a free measure and no-obligation consultation.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OUR PROCESS -->
+  <section class="process">
+    <div class="process__inner">
+      <div class="process__header">
+        <span class="section-label">How It Works</span>
+        <h2>Our Process</h2>
+      </div>
+      <div class="process__steps">
+
+        <div class="process__step">
+          <div class="process__step-num">1</div>
+          <h3>Visit Our Showroom</h3>
+          <p>Come and see our full slab selection in person. Our team will guide you through the options and help you find the right stone for your project and budget.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-num">2</div>
+          <h3>Free Home Template</h3>
+          <p>We visit your home to take precise measurements of your space. This ensures your worktop fits perfectly — accounting for every angle, cutout, and edge profile.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-num">3</div>
+          <h3>Cutting &amp; Fabrication</h3>
+          <p>Your chosen stone is cut, edged, and finished in our workshop using CNC technology. Every detail is checked before the slab leaves our facility.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-num">4</div>
+          <h3>Expert Installation</h3>
+          <p>Our experienced fitters install your worktop with care and precision. We leave the space clean, tidy, and ready to use — usually within a single day.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR PROMISE -->
+  <section class="promise">
+    <span class="section-label">Our Commitment</span>
+    <h2>A Surface That Lasts — <em>Guaranteed</em></h2>
+    <p>Natural stone is a lifetime investment. We treat every project as if we were fitting our own kitchen, because our reputation depends on it.</p>
+    <div class="promise__items">
+      <div class="promise__item">
+        <h4>Quality Assurance</h4>
+        <p>Every slab is personally inspected before cutting. We won't use stone with concealed flaws, and we'll always show you the exact slab before work begins.</p>
+      </div>
+      <div class="promise__item">
+        <h4>Workmanship Guarantee</h4>
+        <p>All installations are covered by our full workmanship guarantee. Any defect in our fitting will be rectified promptly and at no cost to you.</p>
+      </div>
+      <div class="promise__item">
+        <h4>Aftercare Support</h4>
+        <p>We're on hand after installation with advice on sealing, cleaning, and caring for your stone to keep it looking its best for decades to come.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip">
+    <span class="section-label">Ready to Get Started?</span>
+    <h2>Visit Our Showroom or Request a Free Quote</h2>
+    <p>Come and see over 200 slabs in person at our Harlow showroom, or get in touch for a free, no-obligation quote.</p>
+    <div class="cta-strip__btns">
+      <a href="index.html#contact" class="btn-primary">Request a Free Quote</a>
+      <a href="index.html#about" class="btn-outline">Learn More About Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer__inner">
+      <div class="footer__top">
+
+        <div class="footer__brand">
+          <a href="index.html"><img src="logo.png" class="footer__logo-img" alt="The Granite Centre" /></a>
+          <p>Premium granite, marble, and quartz surfaces — supplied and fitted to the highest standard. Visit our showroom to see our full range.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="why-us.html">Why Choose Us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Kitchen Worktops</a></li>
+            <li><a href="#">Bathroom Surfaces</a></li>
+            <li><a href="#">Flooring &amp; Paving</a></li>
+            <li><a href="#">Fireplace Surrounds</a></li>
+            <li><a href="#">Bespoke Cut to Size</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <address>
+            2 The Fairway<br />
+            Harlow, Essex<br />
+            CM18 6LY<br /><br />
+            <a href="tel:+441279443081">01279 443081</a><br />
+            <a href="mailto:sales@thegranitecentre.co.uk">sales@thegranitecentre.co.uk</a>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2024 The Granite Centre. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.17 1.22-5.17s-.31-.62-.31-1.54c0-1.45.84-2.53 1.88-2.53.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.88 1.54 1.88 1.85 0 3.27-1.95 3.27-4.77 0-2.49-1.79-4.23-4.35-4.23-2.96 0-4.7 2.22-4.7 4.51 0 .89.34 1.85.77 2.37.08.1.09.19.07.29-.08.32-.25 1.04-.28 1.18-.04.19-.14.23-.32.14-1.25-.58-2.03-2.42-2.03-3.89 0-3.15 2.29-6.05 6.61-6.05 3.47 0 6.16 2.47 6.16 5.77 0 3.44-2.17 6.21-5.18 6.21-1.01 0-1.97-.53-2.3-1.14l-.62 2.33c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.style.boxShadow = window.scrollY > 10
+        ? '0 2px 20px rgba(0,0,0,0.5)'
+        : 'none';
+    });
+  </script>
+</body>
+</html>

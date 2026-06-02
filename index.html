@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Granite Worktops Essex | The Granite Centre, Harlow</title>
+  <meta name="description" content="Premium granite, marble and quartz worktops supplied and fitted in Essex and Hertfordshire. Visit our Harlow showroom or request a free quote today." />
+  <meta property="og:title" content="The Granite Centre — Premium Granite Worktops, Harlow Essex" />
+  <meta property="og:description" content="Premium granite, marble and quartz worktops supplied and fitted in Essex and Hertfordshire. Visit our Harlow showroom or request a free quote today." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Granite Centre",
+    "description": "Premium granite, marble and quartz worktops supplied and fitted in Essex and Hertfordshire.",
+    "url": "https://www.thegranitecentre.co.uk",
+    "telephone": "+441279443081",
+    "email": "sales@thegranitecentre.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2 The Fairway",
+      "addressLocality": "Harlow",
+      "addressRegion": "Essex",
+      "postalCode": "CM18 6LY",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.7612,
+      "longitude": 0.0986
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+    ],
+    "priceRange": "££",
+    "areaServed": ["Essex", "Hertfordshire"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #111111;
+      --bg2:      #1a1a1a;
+      --bg3:      #222222;
+      --text:     #f5f0eb;
+      --muted:    #a89f95;
+      --gold:     #c9a96e;
+      --gold-lt:  #dfc08a;
+      --border:   rgba(201,169,110,0.25);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    /* ─── TOP BAR ─────────────────────────────────── */
+    .top-bar {
+      background: #0a0a0a;
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .top-bar a { color: var(--gold); text-decoration: none; }
+    .top-bar a:hover { color: var(--gold-lt); }
+
+    .top-bar__cta {
+      background: var(--gold);
+      color: #111 !important;
+      padding: 6px 18px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      font-size: 12px;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+
+    .top-bar__cta:hover { background: var(--gold-lt) !important; }
+
+    /* ─── NAV ─────────────────────────────────────── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17,17,17,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .nav__logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+    }
+
+    .nav__logo span { color: var(--gold); }
+
+    .nav__links {
+      display: flex;
+      list-style: none;
+      gap: 36px;
+    }
+
+    .nav__links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav__links a:hover { color: var(--gold); }
+
+    .nav__hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .nav__hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text);
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    /* ─── HERO ────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(160deg,
+          rgba(0,0,0,0.60) 0%,
+          rgba(0,0,0,0.35) 50%,
+          rgba(0,0,0,0.65) 100%),
+        url('dark-granite.jpg') center center / cover no-repeat;
+      background-attachment: fixed, fixed;
+    }
+
+    /* ─── SECOND BANNER ───────────────────────────── */
+    .banner-2 {
+      min-height: 100vh;
+      background:
+        linear-gradient(160deg,
+          rgba(0,0,0,0.45) 0%,
+          rgba(0,0,0,0.25) 50%,
+          rgba(0,0,0,0.50) 100%),
+        url('light-granite.JPG') center center / cover no-repeat;
+      background-attachment: fixed, fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .banner-2__content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      padding: 40px 20px;
+    }
+
+    .banner-2__content .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .banner-2__content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 5vw, 64px);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 24px;
+      color: var(--text);
+    }
+
+    .banner-2__content h2 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .banner-2__content p {
+      font-size: clamp(15px, 2vw, 19px);
+      color: rgba(245,240,235,0.85);
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      margin-bottom: 40px;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 1;
+      max-width: 820px;
+      padding: 40px 20px;
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border);
+      padding: 6px 18px;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 30px;
+    }
+
+    .hero__badge::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(42px, 7vw, 80px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero__tagline {
+      font-size: clamp(15px, 2vw, 19px);
+      color: var(--muted);
+      margin-bottom: 44px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero__ctas {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #111;
+      padding: 15px 36px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+    }
+
+    .btn-primary:hover { background: var(--gold-lt); transform: translateY(-1px); }
+
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 15px 36px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, transform 0.2s;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    .hero__scroll {
+      position: absolute;
+      bottom: 36px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .hero__scroll::after {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+    }
+
+    .hero__logo-badge {
+      position: absolute;
+      bottom: 40px;
+      right: 48px;
+      width: 320px;
+      opacity: 0.85;
+      filter: invert(1);
+      mix-blend-mode: screen;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .nav__logo-link { display: flex; align-items: center; text-decoration: none; }
+    .nav__logo-img { height: 66px; width: auto; filter: invert(1); }
+    .footer__logo-img { height: 52px; width: auto; filter: invert(1); margin-bottom: 16px; display: block; }
+
+    @media (max-width: 600px) {
+      .hero__logo-badge { width: 100px; bottom: 24px; right: 20px; }
+    }
+
+    /* ─── PILLARS ─────────────────────────────────── */
+    .pillars {
+      background: var(--bg2);
+      padding: 80px 40px;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .pillars__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .pillar {
+      background: var(--bg2);
+      padding: 52px 44px;
+      text-align: center;
+    }
+
+    .pillar__icon {
+      width: 52px;
+      height: 52px;
+      margin: 0 auto 24px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pillar__icon svg { width: 22px; height: 22px; stroke: var(--gold); fill: none; stroke-width: 1.5; }
+
+    .pillar__label {
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .pillar h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .pillar p { color: var(--muted); font-size: 14px; line-height: 1.8; }
+
+    /* ─── ABOUT ───────────────────────────────────── */
+    .about {
+      padding: 100px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .about__text .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .about__text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 3.5vw, 44px);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    .about__text h2 em { font-style: italic; color: var(--gold); }
+
+    .about__text p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.85;
+      margin-bottom: 18px;
+    }
+
+    .about__text p:last-of-type { margin-bottom: 36px; }
+
+    .about__image {
+      position: relative;
+      height: 500px;
+    }
+
+    .about__slab {
+      position: absolute;
+      inset: 0;
+      background: url('about-granite.jpg') center / cover no-repeat;
+      overflow: hidden;
+    }
+
+    .about__slab-label {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      background: rgba(17,17,17,0.7);
+    }
+
+    /* ─── PRODUCT FEATURE ─────────────────────────── */
+    .product-feature {
+      background: var(--bg3);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .product-feature__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .product-feature__image {
+      min-height: 520px;
+      background: url('kitchen-worktop.jpg') center / cover no-repeat;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-feature__image::after {
+      content: 'Kitchen Worktops';
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      background: rgba(17,17,17,0.7);
+    }
+
+    .product-feature__content {
+      padding: 80px 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .product-feature__content .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .product-feature__content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3vw, 40px);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .product-feature__content p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.85;
+      margin-bottom: 16px;
+    }
+
+    .product-feature__content p:last-of-type { margin-bottom: 36px; }
+
+    /* ─── WHY CHOOSE US ───────────────────────────── */
+    .why {
+      padding: 100px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .section-header .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .section-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .why__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+
+    .why__item {
+      border-top: 1px solid var(--border);
+      padding-top: 32px;
+    }
+
+    .why__number {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: rgba(201,169,110,0.15);
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    .why__item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .why__item p { color: var(--muted); font-size: 14px; line-height: 1.8; }
+
+    /* ─── TESTIMONIALS ────────────────────────────── */
+    .testimonials {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 90px 40px;
+    }
+
+    .testimonials__inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .testimonials__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      background: var(--border);
+      margin-top: 56px;
+    }
+
+    .testimonial {
+      background: var(--bg2);
+      padding: 44px 36px;
+    }
+
+    .testimonial__stars {
+      color: var(--gold);
+      font-size: 14px;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial blockquote {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+
+    .testimonial__author {
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    /* ─── CONTACT / QUOTE FORM ────────────────────── */
+    .contact {
+      padding: 100px 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .contact .section-header { margin-bottom: 52px; }
+
+    .form__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form__group--full { grid-column: 1 / -1; }
+
+    .form__group label {
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .form__group input,
+    .form__group select,
+    .form__group textarea {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 16px;
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+      width: 100%;
+      appearance: none;
+    }
+
+    .form__group select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23a89f95' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      cursor: pointer;
+    }
+
+    .form__group select option { background: var(--bg2); }
+
+    .form__group input:focus,
+    .form__group select:focus,
+    .form__group textarea:focus { border-color: var(--gold); }
+
+    .form__group textarea { resize: vertical; min-height: 130px; }
+
+    .form__group input::placeholder,
+    .form__group textarea::placeholder { color: rgba(168,159,149,0.5); }
+
+    .form__submit {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .form__note {
+      margin-top: 16px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── FOOTER ──────────────────────────────────── */
+    footer {
+      background: #0a0a0a;
+      border-top: 1px solid var(--border);
+      padding: 64px 40px 32px;
+    }
+
+    .footer__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer__top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 56px;
+    }
+
+    .footer__brand .nav__logo { display: inline-block; margin-bottom: 16px; }
+
+    .footer__brand p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.8;
+      max-width: 280px;
+    }
+
+    .footer__col h4 {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .footer__col ul { list-style: none; }
+
+    .footer__col ul li { margin-bottom: 10px; }
+
+    .footer__col ul a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .footer__col ul a:hover { color: var(--gold); }
+
+    .footer__col address {
+      font-style: normal;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+
+    .footer__col address a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .footer__bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer__bottom p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer__socials {
+      display: flex;
+      gap: 16px;
+    }
+
+    .footer__socials a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s;
+      text-decoration: none;
+    }
+
+    .footer__socials a:hover { border-color: var(--gold); }
+
+    .footer__socials svg { width: 15px; height: 15px; stroke: var(--muted); fill: none; stroke-width: 1.5; }
+
+    .footer__socials a:hover svg { stroke: var(--gold); }
+
+    /* ─── FAQ ────────────────────────────────────── */
+    .faq {
+      padding: 100px 40px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .faq .section-header { margin-bottom: 56px; }
+
+    .faq__group { margin-bottom: 48px; }
+
+    .faq__group-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .faq__item {
+      border-top: 1px solid var(--border);
+    }
+
+    .faq__item:last-child { border-bottom: 1px solid var(--border); }
+
+    .faq__question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 22px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+    }
+
+    .faq__question span {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .faq__icon {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.2s, transform 0.3s;
+    }
+
+    .faq__icon svg {
+      width: 12px;
+      height: 12px;
+      stroke: var(--gold);
+      fill: none;
+      stroke-width: 2;
+      transition: transform 0.3s;
+    }
+
+    .faq__item.open .faq__icon { border-color: var(--gold); }
+    .faq__item.open .faq__icon svg { transform: rotate(45deg); }
+
+    .faq__answer {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+    }
+
+    .faq__answer p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.85;
+      padding-bottom: 24px;
+    }
+
+    /* ─── RESPONSIVE ──────────────────────────────── */
+    @media (max-width: 900px) {
+      .top-bar { padding: 10px 20px; }
+
+      nav { padding: 0 20px; }
+
+      .nav__links { display: none; }
+      .nav__links.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: rgba(17,17,17,0.98);
+        padding: 24px 20px;
+        gap: 20px;
+        border-bottom: 1px solid var(--border);
+        z-index: 99;
+      }
+
+      .nav__hamburger { display: flex; }
+
+      .pillars__grid { grid-template-columns: 1fr; }
+
+      .about {
+        grid-template-columns: 1fr;
+        padding: 64px 20px;
+        gap: 48px;
+      }
+
+      .about__image { height: 320px; }
+
+      .product-feature__inner { grid-template-columns: 1fr; }
+
+      .product-feature__image { min-height: 300px; }
+
+      .product-feature__content { padding: 52px 24px; }
+
+      .why { padding: 64px 20px; }
+      .why__grid { grid-template-columns: 1fr; gap: 32px; }
+
+      .testimonials { padding: 64px 20px; }
+      .testimonials__grid { grid-template-columns: 1fr; }
+
+      .contact { padding: 64px 20px; }
+      .form__grid { grid-template-columns: 1fr; }
+
+      footer { padding: 48px 20px 24px; }
+      .footer__top { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer__brand { grid-column: 1 / -1; }
+
+      .pillars { padding: 60px 20px; }
+    }
+
+    @media (max-width: 480px) {
+      .top-bar { font-size: 11px; padding: 8px 16px; flex-direction: column; gap: 8px; text-align: center; }
+      .hero__ctas { flex-direction: column; align-items: center; }
+      .btn-primary, .btn-outline { width: 100%; max-width: 300px; text-align: center; }
+      .footer__top { grid-template-columns: 1fr; }
+    }
+
+    /* ─── iOS / TOUCH DEVICE FIX ─────────────────────
+       background-attachment: fixed is broken on iOS Safari.
+       On touch devices, fall back to scroll (static image). */
+    @media (hover: none) and (pointer: coarse) {
+      .hero__bg {
+        background-attachment: scroll, scroll;
+      }
+      .banner-2 {
+        background-attachment: scroll, scroll;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <span>Call us: <a href="tel:+441279443081">01279 443081</a></span>
+    <a href="#contact" class="top-bar__cta">Request a Quote</a>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <a href="#" class="nav__logo-link"><img src="logo.png" class="nav__logo-img" alt="The Granite Centre" /></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <div class="hero__badge">Premium Natural Stone Specialists</div>
+      <h1>Granite Worktops<br /><em>Essex &amp; Hertfordshire</em></h1>
+      <p class="hero__tagline">Expertly Supplied &amp; Fitted — Transforming Your Space with Natural Stone</p>
+      <div class="hero__ctas">
+        <a href="#products" class="btn-primary">View Our Products</a>
+        <a href="#contact" class="btn-outline">Get a Free Quote</a>
+      </div>
+    </div>
+    <div class="hero__scroll">Discover</div>
+    <img src="logo.png" class="hero__logo-badge" alt="The Granite Centre" />
+  </section>
+
+  <!-- SECOND BANNER -->
+  <div class="banner-2">
+    <div class="banner-2__content">
+      <span class="section-label">Natural Stone Specialists</span>
+      <h2>Every Surface Tells<br /><em>Its Own Story</em></h2>
+      <p>No two pieces of granite are alike. Each slab carries millions of years of natural history — unique veining, colour and character that can never be replicated.</p>
+      <a href="#contact" class="btn-primary">Get a Free Quote</a>
+    </div>
+  </div>
+
+  <!-- THREE PILLARS -->
+  <section class="pillars">
+    <div class="pillars__grid">
+
+      <div class="pillar">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <div class="pillar__label">Our Craft</div>
+        <h3>Precision Cut</h3>
+        <p>Every slab is measured and cut to your exact specification using the latest CNC and waterjet technology, ensuring a perfect fit every time.</p>
+      </div>
+
+      <div class="pillar">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="pillar__label">Our Stone</div>
+        <h3>Naturally Beautiful</h3>
+        <p>Unique slabs sourced from the world's finest quarries. Each piece of granite carries its own one-of-a-kind veining and character.</p>
+      </div>
+
+      <div class="pillar">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <div class="pillar__label">Our Service</div>
+        <h3>Expert Installation</h3>
+        <p>Our skilled fitters bring decades of experience to every project. Supplied and installed with meticulous attention to detail — finished to perfection.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__text">
+      <span class="section-label">About The Granite Centre</span>
+      <h2>Your Local <em>Natural Stone</em> Specialists</h2>
+      <p>At The Granite Centre, we believe your home deserves surfaces as unique as you are. We've been supplying and fitting premium granite, marble, and quartz worktops to homes and commercial spaces for over a decade.</p>
+      <p>From initial templating to final installation, our team handles every step of the process — so you can enjoy a seamless experience and a result that will endure for a lifetime.</p>
+      <a href="#contact" class="btn-primary">Get a Free Quote</a>
+    </div>
+    <div class="about__image">
+      <div class="about__slab">
+        <div class="about__slab-label">Natural Granite</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT FEATURE: KITCHEN WORKTOPS -->
+  <section id="products" class="product-feature">
+    <div class="product-feature__inner">
+      <div class="product-feature__image"></div>
+      <div class="product-feature__content">
+        <span class="section-label">Featured Product</span>
+        <h2>Kitchen Granite Worktops</h2>
+        <p>Transform your kitchen with a bespoke granite worktop. Durable, heat-resistant, and stunningly beautiful — granite elevates every kitchen, from contemporary to classic.</p>
+        <p>We carry an extensive range of granite colours and finishes, from dramatic black absoluto and swirling white fantasy to warm golden beach and rich Baltic brown. Visit our showroom to view full-size slabs in person.</p>
+        <a href="#contact" class="btn-primary">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why" id="why">
+    <div class="section-header">
+      <span class="section-label">Why Choose Us</span>
+      <h2>The Granite Centre Difference</h2>
+    </div>
+    <div class="why__grid">
+
+      <div class="why__item">
+        <div class="why__number">01</div>
+        <h3>Unmatched Selection</h3>
+        <p>Over 200 granite, marble, and quartz slabs in stock at all times. Our showroom lets you see and touch the full range before you commit.</p>
+      </div>
+
+      <div class="why__item">
+        <div class="why__number">02</div>
+        <h3>Complete Service</h3>
+        <p>We manage everything in-house — templating, cutting, edge profiling, and installation. No subcontractors, no surprises, just quality throughout.</p>
+      </div>
+
+      <div class="why__item">
+        <div class="why__number">03</div>
+        <h3>Guaranteed Quality</h3>
+        <p>All our installations come with a comprehensive workmanship guarantee. We stand behind every surface we supply and fit.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="testimonials__inner">
+      <div class="section-header">
+        <span class="section-label">Customer Reviews</span>
+        <h2>What Our Customers Say</h2>
+      </div>
+      <div class="testimonials__grid">
+
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote>"The worktop looks absolutely stunning. The team were professional from start to finish — the templating was precise and the installation was flawless. Couldn't be happier."</blockquote>
+          <div class="testimonial__author">Sarah M. — Kitchen Renovation</div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote>"From the moment we visited the showroom, the service was exceptional. The range of granite on offer was incredible and the advice we received helped us choose the perfect stone."</blockquote>
+          <div class="testimonial__author">James &amp; Claire T. — New Build</div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <blockquote>"Highly recommend The Granite Centre. The quality of the stone and the standard of fitting was second to none. A genuine pleasure to deal with — will be using them again."</blockquote>
+          <div class="testimonial__author">David R. — Kitchen &amp; Utility Room</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-header">
+      <span class="section-label">Common Questions</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq__group">
+      <span class="faq__group-label">About the Stone</span>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>Is granite heat resistant?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Yes — granite is one of the most heat-resistant worktop materials available. You can place hot pans directly on the surface without causing damage. That said, we recommend using trivets as a habit, as sudden extreme temperature changes can, over time, affect the sealant.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>What's the difference between granite, marble, and quartz?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Granite is a natural igneous rock — extremely hard, durable, and heat resistant. Each slab is unique. Marble is a metamorphic stone with elegant veining but is softer and more porous, making it better suited to lower-traffic areas. Quartz is an engineered stone made from crushed quartz and resin — highly consistent in pattern, non-porous, and very low-maintenance. We stock all three and can help you choose the right material for your project.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>Does granite need to be sealed?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Yes. Granite is a natural stone with a slightly porous surface, so it benefits from sealing to protect against staining. We apply a professional-grade sealant as part of every installation. We recommend resealing every one to two years depending on use, which is a straightforward job you can do yourself at home.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>What are the disadvantages of granite worktops?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Granite is a natural stone, so it does require more care than engineered alternatives. It needs sealing on installation and resealing every one to two years to stay stain-resistant — if left unsealed, it can absorb liquids and harbour bacteria over time. It's also heavier than composite materials, which occasionally requires additional cabinet support. And because every slab is unique, colour matching for extensions or repairs can be tricky. If low maintenance is your priority, quartz is worth considering — it's non-porous and requires no sealing. We stock both and are happy to help you weigh up the options for your project.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>Can granite chip or crack?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Granite is exceptionally hard and resistant to chipping under normal kitchen use. Chips can occur from a severe impact — typically a heavy object dropped directly onto a corner or edge. Cracks are rare but can happen if the worktop is poorly supported. Our installations are fully templated and properly supported to minimise this risk.</p></div>
+      </div>
+    </div>
+
+    <div class="faq__group">
+      <span class="faq__group-label">The Process</span>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>How long does the whole process take?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>From your first visit to our showroom to completed installation, most projects take between two and four weeks. This allows time for your initial consultation, the free home template, fabrication in our workshop, and scheduling the installation. We'll give you a clear timeline at the quoting stage.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>What happens on installation day?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Our fitters will arrive at the agreed time, remove your old worktop if required, and install your new stone surface. Most domestic kitchen installations are completed within a single day. We work carefully around your cabinetry and appliances, leave the space clean and tidy, and walk you through the finished result before we leave.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>Do you fit around sinks and hobs?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Yes — all cutouts for sinks, hobs, and taps are included as standard. We take precise measurements during the templating visit to ensure every cutout is perfectly positioned. We can accommodate undermount, inset, and Belfast sink styles as well as most hob types.</p></div>
+      </div>
+    </div>
+
+    <div class="faq__group">
+      <span class="faq__group-label">Pricing &amp; Quotes</span>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>How much does a granite worktop cost?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>The cost depends on the stone you choose, the size of your kitchen, the edge profile, and the number of cutouts. As a general guide, a standard kitchen worktop in granite or quartz typically starts from around £1,000 fully fitted. We provide detailed, itemised quotes with no hidden costs — use the form below to get started.</p></div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">
+          <span>Is the home template visit free?</span>
+          <div class="faq__icon"><svg viewBox="0 0 12 12"><line x1="6" y1="1" x2="6" y2="11"/><line x1="1" y1="6" x2="11" y2="6"/></svg></div>
+        </button>
+        <div class="faq__answer"><p>Yes, our home templating visit is completely free and carries no obligation. We visit your home, take precise measurements, and provide a full written quote. There's no pressure and no charge — we want you to feel confident before you commit.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / QUOTE FORM -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <span class="section-label">Get In Touch</span>
+      <h2>Request a Free Quote</h2>
+    </div>
+    <form id="quoteForm" novalidate>
+      <div class="form__grid">
+
+        <div class="form__group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Jane" required />
+        </div>
+
+        <div class="form__group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Smith" required />
+        </div>
+
+        <div class="form__group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="07700 900 000" required />
+        </div>
+
+        <div class="form__group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+        </div>
+
+        <div class="form__group">
+          <label for="project">Project Type</label>
+          <select id="project" name="project">
+            <option value="" disabled selected>Select a project type</option>
+            <option value="kitchen-worktop">Kitchen Worktop</option>
+            <option value="bathroom-vanity">Bathroom Vanity</option>
+            <option value="flooring">Flooring / Paving</option>
+            <option value="fireplace">Fireplace Surround</option>
+            <option value="commercial">Commercial Project</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form__group">
+          <label for="budget">Approximate Budget</label>
+          <select id="budget" name="budget">
+            <option value="" disabled selected>Select a budget range</option>
+            <option value="under-1k">Under £1,000</option>
+            <option value="1k-3k">£1,000 – £3,000</option>
+            <option value="3k-6k">£3,000 – £6,000</option>
+            <option value="6k-plus">£6,000+</option>
+          </select>
+        </div>
+
+        <div class="form__group form__group--full">
+          <label for="message">Tell Us About Your Project</label>
+          <textarea id="message" name="message" placeholder="Describe your project, dimensions, preferred stone type, or anything else that would help us provide an accurate quote…"></textarea>
+        </div>
+
+        <div class="form__group form__group--full form__submit">
+          <button type="submit" class="btn-primary" style="border:none;cursor:pointer;max-width:300px;">Send Enquiry</button>
+          <p class="form__note">We typically respond within 24 hours. Your details will never be shared.</p>
+        </div>
+
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer__inner">
+      <div class="footer__top">
+
+        <div class="footer__brand">
+          <a href="#"><img src="logo.png" class="footer__logo-img" alt="The Granite Centre" /></a>
+          <p>Premium granite, marble, and quartz surfaces — supplied and fitted to the highest standard. Visit our showroom to see our full range.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Kitchen Worktops</a></li>
+            <li><a href="#">Bathroom Surfaces</a></li>
+            <li><a href="#">Flooring &amp; Paving</a></li>
+            <li><a href="#">Fireplace Surrounds</a></li>
+            <li><a href="#">Bespoke Cut to Size</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <address>
+            2 The Fairway<br />
+            Harlow, Essex<br />
+            CM18 6LY<br /><br />
+            <a href="tel:+441279443081">01279 443081</a><br />
+            <a href="mailto:sales@thegranitecentre.co.uk">sales@thegranitecentre.co.uk</a>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2024 The Granite Centre. All rights reserved.</p>
+        <div class="footer__socials">
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <!-- Houzz / Pinterest placeholder -->
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.04-2.83.18-.77 1.22-5.17 1.22-5.17s-.31-.62-.31-1.54c0-1.45.84-2.53 1.88-2.53.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.88 1.54 1.88 1.85 0 3.27-1.95 3.27-4.77 0-2.49-1.79-4.23-4.35-4.23-2.96 0-4.7 2.22-4.7 4.51 0 .89.34 1.85.77 2.37.08.1.09.19.07.29-.08.32-.25 1.04-.28 1.18-.04.19-.14.23-.32.14-1.25-.58-2.03-2.42-2.03-3.89 0-3.15 2.29-6.05 6.61-6.05 3.47 0 6.16 2.47 6.16 5.77 0 3.44-2.17 6.21-5.18 6.21-1.01 0-1.97-.53-2.3-1.14l-.62 2.33c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close nav when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    // Scroll-based nav shadow
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.style.boxShadow = window.scrollY > 10
+        ? '0 2px 20px rgba(0,0,0,0.5)'
+        : 'none';
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq__question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq__item');
+        const answer = item.querySelector('.faq__answer');
+        const isOpen = item.classList.contains('open');
+
+        document.querySelectorAll('.faq__item.open').forEach(openItem => {
+          openItem.classList.remove('open');
+          openItem.querySelector('.faq__answer').style.maxHeight = '0';
+          openItem.querySelector('.faq__question').setAttribute('aria-expanded', 'false');
+        });
+
+        if (!isOpen) {
+          item.classList.add('open');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Form submission (placeholder)
+    document.getElementById('quoteForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const btn = e.target.querySelector('[type="submit"]');
+      btn.textContent = 'Enquiry Sent!';
+      btn.style.background = '#4a7c59';
+      btn.disabled = true;
+    });
+  </script>
+</body>
+</html>
