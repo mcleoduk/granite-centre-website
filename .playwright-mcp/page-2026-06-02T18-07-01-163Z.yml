@@ -1,0 +1,417 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - banner:
+        - generic:
+          - button "Menu" [ref=e4] [cursor=pointer]
+          - link "undefined logo link" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e15]:
+            - link "Newsletter" [ref=e16] [cursor=pointer]:
+              - /url: /email
+              - generic [ref=e17]: Newsletter
+            - link "Go to Recipe Box" [ref=e19] [cursor=pointer]:
+              - /url: /account/recipe-box
+              - img [ref=e20]
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - textbox "Search" [ref=e27]
+              - generic [ref=e28]: Search pro-tested recipes & so much more
+            - button [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+          - generic [ref=e33]:
+            - link "Join for free" [ref=e34] [cursor=pointer]:
+              - /url: /join
+              - generic [ref=e35]: Join for free
+            - link "Sign In" [ref=e36] [cursor=pointer]:
+              - /url: /sign-in
+              - generic [ref=e37]: Sign In
+        - navigation [ref=e38]:
+          - list [ref=e39]:
+            - listitem [ref=e40]:
+              - link "Dinner Tonight" [ref=e41] [cursor=pointer]:
+                - /url: /collection/dinner
+              - generic:
+                - link "See all Dinner" [ref=e43] [cursor=pointer]:
+                  - /url: /collection/dinner
+                - generic [ref=e44]:
+                  - generic [ref=e45]:
+                    - paragraph [ref=e46]: Editor Faves
+                    - list [ref=e47]:
+                      - listitem [ref=e48]:
+                        - link "Our Most Popular Dinner Recipes" [ref=e49] [cursor=pointer]:
+                          - /url: /most-popular-dinner-recipes-23749145
+                      - listitem [ref=e50]:
+                        - link "Best Chicken Recipes" [ref=e51] [cursor=pointer]:
+                          - /url: /collection/chicken
+                      - listitem [ref=e52]:
+                        - link "20-Minute Pastas" [ref=e53] [cursor=pointer]:
+                          - /url: /collection/pasta-noodles/20-minute-recipes
+                      - listitem [ref=e54]:
+                        - link "Cozy Soups & Stews" [ref=e55] [cursor=pointer]:
+                          - /url: /collection/soups-stews
+                  - generic [ref=e56]:
+                    - paragraph [ref=e57]: Quick & Easy
+                    - list [ref=e58]:
+                      - listitem [ref=e59]:
+                        - link "One-Pot Wonders" [ref=e60] [cursor=pointer]:
+                          - /url: /one-pot-meals-for-dinner-23745120
+                      - listitem [ref=e61]:
+                        - link "Ready in 30 Minutes" [ref=e62] [cursor=pointer]:
+                          - /url: /collection/dinner/30-minute-recipes
+                      - listitem [ref=e63]:
+                        - link "Vegetarian" [ref=e64] [cursor=pointer]:
+                          - /url: /10-dinners-that-are-mostly-vegetables-250208
+                      - listitem [ref=e65]:
+                        - link "Kid-Friendly" [ref=e66] [cursor=pointer]:
+                          - /url: /family-dinner-ideas-265030
+                      - listitem [ref=e67]:
+                        - link "Slow Cooker Chicken" [ref=e68] [cursor=pointer]:
+                          - /url: /best-slow-cooker-chicken-recipes-23746316
+            - listitem [ref=e69]:
+              - link "Recipes" [ref=e70] [cursor=pointer]:
+                - /url: /recipes
+              - generic:
+                - link "See all Recipes" [ref=e72] [cursor=pointer]:
+                  - /url: /recipes
+                - generic [ref=e73]:
+                  - generic [ref=e74]:
+                    - paragraph [ref=e75]: By Meal
+                    - list [ref=e76]:
+                      - listitem [ref=e77]:
+                        - link "Dinner" [ref=e78] [cursor=pointer]:
+                          - /url: /collection/dinner
+                      - listitem [ref=e79]:
+                        - link "Sides" [ref=e80] [cursor=pointer]:
+                          - /url: /collection/side-dish
+                      - listitem [ref=e81]:
+                        - link "Desserts" [ref=e82] [cursor=pointer]:
+                          - /url: /collection/desserts
+                      - listitem [ref=e83]:
+                        - link "Apps & Snacks" [ref=e84] [cursor=pointer]:
+                          - /url: /collection/appetizers-snacks
+                      - listitem [ref=e85]:
+                        - link "Breakfast & Brunch" [ref=e86] [cursor=pointer]:
+                          - /url: /collection/breakfast
+                      - listitem [ref=e87]:
+                        - link "Cocktails" [ref=e88] [cursor=pointer]:
+                          - /url: /collection/cocktails
+                  - generic [ref=e89]:
+                    - paragraph [ref=e90]: Popular Ingredients
+                    - list [ref=e91]:
+                      - listitem [ref=e92]:
+                        - link "Chicken" [ref=e93] [cursor=pointer]:
+                          - /url: /collection/chicken
+                      - listitem [ref=e94]:
+                        - link "Beef" [ref=e95] [cursor=pointer]:
+                          - /url: /collection/beef
+                      - listitem [ref=e96]:
+                        - link "Fish & Seafood" [ref=e97] [cursor=pointer]:
+                          - /url: /collection/fish-seafood
+                      - listitem [ref=e98]:
+                        - link "Pork" [ref=e99] [cursor=pointer]:
+                          - /url: /collection/pork
+                      - listitem [ref=e100]:
+                        - link "Eggs" [ref=e101] [cursor=pointer]:
+                          - /url: /collection/eggs
+                      - listitem [ref=e102]:
+                        - link "Rice & Grains" [ref=e103] [cursor=pointer]:
+                          - /url: /collection/rice-grains
+                      - listitem [ref=e104]:
+                        - link "Potatoes" [ref=e105] [cursor=pointer]:
+                          - /url: /collection/potatoes
+                      - listitem [ref=e106]:
+                        - link "Broccoli" [ref=e107] [cursor=pointer]:
+                          - /url: /collection/broccoli
+                      - listitem [ref=e108]:
+                        - link "Mushrooms" [ref=e109] [cursor=pointer]:
+                          - /url: /collection/mushrooms
+                      - listitem [ref=e110]:
+                        - link "Cabbage" [ref=e111] [cursor=pointer]:
+                          - /url: /collection/cabbage
+                  - generic [ref=e112]:
+                    - paragraph [ref=e113]: Holidays & Parties
+                    - list [ref=e114]:
+                      - listitem [ref=e115]:
+                        - link "Thanksgiving" [ref=e116] [cursor=pointer]:
+                          - /url: /collection/thanksgiving
+                      - listitem [ref=e117]:
+                        - link "Hanukkah" [ref=e118] [cursor=pointer]:
+                          - /url: /collection/hanukkah
+                      - listitem [ref=e119]:
+                        - link "Christmas" [ref=e120] [cursor=pointer]:
+                          - /url: /collection/christmas
+                      - listitem [ref=e121]:
+                        - link "Party Food" [ref=e122] [cursor=pointer]:
+                          - /url: /party-appetizers-23748009
+                      - listitem [ref=e123]:
+                        - link "Easy Cocktails" [ref=e124] [cursor=pointer]:
+                          - /url: /collection/cocktails
+            - listitem [ref=e125]:
+              - link "Groceries" [ref=e126] [cursor=pointer]:
+                - /url: /groceries
+              - generic:
+                - link "See all Groceries" [ref=e128] [cursor=pointer]:
+                  - /url: /groceries
+                - list [ref=e131]:
+                  - listitem [ref=e132]:
+                    - link "Grocery Reviews" [ref=e133] [cursor=pointer]:
+                      - /url: /groceries/product-review
+                  - listitem [ref=e134]:
+                    - link "Costco Favorites & Store News" [ref=e135] [cursor=pointer]:
+                      - /url: /collection/costco
+                  - listitem [ref=e136]:
+                    - link "Aldi Favorites & Store News" [ref=e137] [cursor=pointer]:
+                      - /url: /collection/aldi
+                  - listitem [ref=e138]:
+                    - link "Trader Joe's Favorites & Store News" [ref=e139] [cursor=pointer]:
+                      - /url: /collection/trader-joes
+                  - listitem [ref=e140]:
+                    - link "Grocery Diaries" [ref=e141] [cursor=pointer]:
+                      - /url: /collection/grocery-diaries
+                  - listitem [ref=e142]:
+                    - link "Budget & Shopping Tips" [ref=e143] [cursor=pointer]:
+                      - /url: /collection/shopping-advice
+            - listitem [ref=e144]:
+              - link "In the Kitchen" [ref=e145] [cursor=pointer]:
+                - /url: /kitchen
+              - generic:
+                - link "See all Kitchen" [ref=e147] [cursor=pointer]:
+                  - /url: /kitchen
+                - list [ref=e150]:
+                  - listitem [ref=e151]:
+                    - link "Cleaning" [ref=e152] [cursor=pointer]:
+                      - /url: /collection/cleaning
+                  - listitem [ref=e153]:
+                    - link "Organizing & Storage" [ref=e154] [cursor=pointer]:
+                      - /url: /collection/organizing-storage
+                  - listitem [ref=e155]:
+                    - link "Design & Renovation" [ref=e156] [cursor=pointer]:
+                      - /url: /collection/home-design-renovation
+                  - listitem [ref=e157]:
+                    - link "Ingredient Substitutions" [ref=e158] [cursor=pointer]:
+                      - /url: /collection/substitutions
+                  - listitem [ref=e159]:
+                    - link "Knife Skills" [ref=e160] [cursor=pointer]:
+                      - /url: /collection/cutting-peeling
+                  - listitem [ref=e161]:
+                    - link "Food Storage 101" [ref=e162] [cursor=pointer]:
+                      - /url: /collection/freezing-storing
+            - listitem [ref=e163]:
+              - link "Shopping" [ref=e164] [cursor=pointer]:
+                - /url: /collection/shopping
+              - generic:
+                - link "See all Shopping" [ref=e166] [cursor=pointer]:
+                  - /url: /collection/shopping
+                - list [ref=e169]:
+                  - listitem [ref=e170]:
+                    - link "The Gift List" [ref=e171] [cursor=pointer]:
+                      - /url: /collection/gift-ideas
+                  - listitem [ref=e172]:
+                    - link "Sales & Deals" [ref=e173] [cursor=pointer]:
+                      - /url: /collection/sales-events
+                  - listitem [ref=e174]:
+                    - link "Grocery Reviews" [ref=e175] [cursor=pointer]:
+                      - /url: /groceries/product-review
+            - listitem [ref=e176]:
+              - link "What's Cooking live" [ref=e177] [cursor=pointer]:
+                - /url: /whats-cooking
+    - main [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e181]:
+          - heading "Maybe there's something we can substitute? Kind of like chia seeds instead of egg." [level=1] [ref=e182]
+          - paragraph [ref=e183]: Whoops! Apparently that page doesn't exist. (Error Code 404)
+        - generic [ref=e187]:
+          - heading "You might also like" [level=4] [ref=e189]
+          - generic [ref=e190]:
+            - generic [ref=e192]:
+              - img "Flaky biscuit layered with fresh strawberries and whipped cream, garnished with more strawberries." [ref=e195]
+              - generic [ref=e197]:
+                - link "I Never Roll or Knead Biscuit Dough for Strawberry Shortcake Anymore — I Do This" [ref=e198] [cursor=pointer]:
+                  - /url: /strawberry-shortcake-recipe-review-23785106
+                  - generic [ref=e199]: I Never Roll or Knead Biscuit Dough for Strawberry Shortcake Anymore — I Do This
+                - generic [ref=e200]:
+                  - text: by
+                  - generic [ref=e201]: Celia Funderburk
+                - text: "|"
+            - generic [ref=e203]:
+              - img "Noodles topped with ground meat, chopped peanuts, green onions, cucumber strips, and a red sauce in a bowl." [ref=e207]
+              - generic [ref=e209]:
+                - link "Whenever I Have a Pound of Ground Beef, I Make These Quick, Saucy Noodles" [ref=e210] [cursor=pointer]:
+                  - /url: /spicy-peanut-beef-noodles-recipe-23785135
+                  - generic [ref=e211]: Whenever I Have a Pound of Ground Beef, I Make These Quick, Saucy Noodles
+                - generic [ref=e212]:
+                  - text: by
+                  - generic [ref=e213]: Rachel Perlmutter
+                - text: "|"
+            - generic [ref=e215]:
+              - img "Fried rice with chicken, diced red peppers, and green onions in a large wok." [ref=e219]
+              - generic [ref=e221]:
+                - link "This Is Not Your Average Fried Rice (It Might Be the Best Version We’ve Tasted)" [ref=e222] [cursor=pointer]:
+                  - /url: /arroz-chaufa-recipe-23784539
+                  - generic [ref=e223]: This Is Not Your Average Fried Rice (It Might Be the Best Version We’ve Tasted)
+                - generic [ref=e224]:
+                  - text: by
+                  - generic [ref=e225]: Andrea Loret de Mola
+                - text: "|"
+            - generic [ref=e227]:
+              - img "Layered dessert squares with a graham cracker crust, creamy lemon filling, and topped with whipped cream and lime zest." [ref=e231]
+              - generic [ref=e233]:
+                - link "No-Bake Key Lime Delight Is So Easy, It Practically Makes Itself" [ref=e234] [cursor=pointer]:
+                  - /url: /key-lime-delight-recipe-23783303
+                  - generic [ref=e235]: No-Bake Key Lime Delight Is So Easy, It Practically Makes Itself
+                - generic [ref=e236]:
+                  - text: by
+                  - generic [ref=e237]: Olwen Phillips
+                - text: "|"
+            - generic [ref=e244]:
+              - link "15 Tried-and-True Pioneer Woman Recipes We Can’t Stop Making" [ref=e245] [cursor=pointer]:
+                - /url: /pioneer-woman-recipes-23784641
+                - generic [ref=e246]: 15 Tried-and-True Pioneer Woman Recipes We Can’t Stop Making
+              - generic [ref=e247]:
+                - text: by
+                - generic [ref=e248]: Alexandra Foster
+              - text: "|"
+            - generic [ref=e255]:
+              - link "I Ditched Foil for My Baked Potatoes — Try a Steakhouse Secret for Crispy Skin" [ref=e256] [cursor=pointer]:
+                - /url: /steakhouse-baked-potato-recipe-review-23784599
+                - generic [ref=e257]: I Ditched Foil for My Baked Potatoes — Try a Steakhouse Secret for Crispy Skin
+              - generic [ref=e258]:
+                - text: by
+                - generic [ref=e259]: Celia Funderburk
+              - text: "|"
+            - generic [ref=e266]:
+              - link "The 10-Minute Trick That Guarantees the Most Tender Chicken Dinner of All Time" [ref=e267] [cursor=pointer]:
+                - /url: /hunan-chicken-recipe-23784498
+                - generic [ref=e268]: The 10-Minute Trick That Guarantees the Most Tender Chicken Dinner of All Time
+              - generic [ref=e269]:
+                - text: by
+                - generic [ref=e270]: Lulu Chang
+              - text: "|"
+            - generic [ref=e277]:
+              - link "Sheet Pan Scrambled Eggs Are the Easiest Brunch Dish I’ve Ever Made" [ref=e278] [cursor=pointer]:
+                - /url: /sheet-pan-eggs-recipe-23784380
+                - generic [ref=e279]: Sheet Pan Scrambled Eggs Are the Easiest Brunch Dish I’ve Ever Made
+              - generic [ref=e280]:
+                - text: by
+                - generic [ref=e281]: Amanda Luchtel
+              - text: "|"
+    - contentinfo [ref=e282]:
+      - generic [ref=e283]:
+        - link "Site footer logo link" [ref=e285] [cursor=pointer]:
+          - /url: /
+          - img [ref=e287]
+          - img "The Kitchn" [ref=e291]
+        - navigation [ref=e293]:
+          - paragraph [ref=e294]: More From Us
+          - list [ref=e295]:
+            - listitem [ref=e296]:
+              - link "Our Team" [ref=e297] [cursor=pointer]:
+                - /url: /team
+            - listitem [ref=e298]:
+              - link "About Us" [ref=e299] [cursor=pointer]:
+                - /url: /about/about-us
+            - listitem [ref=e300]:
+              - link "Contact" [ref=e301] [cursor=pointer]:
+                - /url: /about/contact
+            - listitem [ref=e302]:
+              - link "Site Map" [ref=e303] [cursor=pointer]:
+                - /url: /sitemap
+        - generic [ref=e304]:
+          - paragraph [ref=e305]: Follow along
+          - generic [ref=e306]:
+            - link "Facebook" [ref=e308] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/The-Kitchn/65398579615
+              - img [ref=e310]
+            - link "Pinterest" [ref=e314] [cursor=pointer]:
+              - /url: https://www.pinterest.com/thekitchn/
+              - img [ref=e316]
+            - link "Instagram" [ref=e320] [cursor=pointer]:
+              - /url: https://www.instagram.com/thekitchn/
+              - img [ref=e322]
+            - link "YouTube" [ref=e328] [cursor=pointer]:
+              - /url: https://www.youtube.com/apartmenttherapy
+              - img [ref=e330]
+            - link "Flipboard" [ref=e334] [cursor=pointer]:
+              - /url: https://flipboard.com/@TheKitchn
+              - img [ref=e336]
+            - link "TikTok" [ref=e340] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@thekitchn?lang=en
+              - img [ref=e342]
+        - generic [ref=e345]:
+          - paragraph [ref=e346]: GET ON THE LIST
+          - generic [ref=e347]:
+            - paragraph [ref=e349]: Our daily email is filled with delicious recipes, trusted cooking tips, must-have groceries, and so much more.
+            - form "email signup form" [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: Email address
+                - textbox "sign up email" [ref=e354]
+                - button "submit email" [ref=e355] [cursor=pointer]:
+                  - img [ref=e356]
+              - paragraph [ref=e360]:
+                - text: By subscribing, you acknowledge and agree to our
+                - link "Terms of Use" [ref=e361] [cursor=pointer]:
+                  - /url: https://www.apartmenttherapy.com/about/terms
+                - text: and
+                - link "Privacy Policy" [ref=e362] [cursor=pointer]:
+                  - /url: /about/privacy-policy
+                - text: .
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - link "Site footer logo link" [ref=e366] [cursor=pointer]:
+            - /url: https://www.apartmenttherapy.com
+            - img "Apartment Therapy The logomark and logotype for the Apartment Therapy brand." [ref=e367]
+          - link "Site footer logo link" [ref=e371] [cursor=pointer]:
+            - /url: https://www.thekitchn.com
+            - img [ref=e372]
+          - link "Site footer logo link" [ref=e377] [cursor=pointer]:
+            - /url: https://www.cubbyathome.com
+            - img "Cubby" [ref=e378]
+          - link "Site footer logo link" [ref=e381] [cursor=pointer]:
+            - /url: https://www.dormtherapy.com
+            - img "Dorm Therapy" [ref=e382]
+          - generic [ref=e385]: AT Media's Family of Brands
+        - navigation [ref=e386]:
+          - link "site-footer logo link" [ref=e388] [cursor=pointer]:
+            - /url: https://www.apartmenttherapymedia.com/
+            - img "Apartment Therapy Media Logo for the corporate Apartment Therapy Media brand." [ref=e389]
+          - list [ref=e392]:
+            - listitem [ref=e393]:
+              - link "About AT Media" [ref=e394] [cursor=pointer]:
+                - /url: https://www.apartmenttherapymedia.com/about-us/our-story
+            - listitem [ref=e395]:
+              - link "Jobs" [ref=e396] [cursor=pointer]:
+                - /url: https://www.apartmenttherapymedia.com/jobs/
+            - listitem [ref=e397]:
+              - link "Partner with Us" [ref=e398] [cursor=pointer]:
+                - /url: https://www.apartmenttherapymedia.com/partner-with-us/homemade-studios
+        - paragraph [ref=e400]:
+          - text: © 2026 Apartment Therapy, LLC /
+          - link "Terms of Use" [ref=e401] [cursor=pointer]:
+            - /url: https://www.apartmenttherapy.com/about/terms
+          - link "/ Privacy Policy" [ref=e402] [cursor=pointer]:
+            - /url: /about/privacy-policy
+          - link "/ EU and US State Data Subject Requests" [ref=e403] [cursor=pointer]:
+            - /url: https://privacyportal.onetrust.com/webform/aca0e9e8-93f2-47a5-ba3f-00029564ca26/2828b2f1-a01b-4c03-b487-2e8d4ffd63f3
+          - link "/ Manage Preferences" [ref=e404] [cursor=pointer]:
+            - /url: "#"
+  - alert [ref=e405]
+  - iframe
+  - generic:
+    - region "Cookie banner" [ref=e406]:
+      - dialog "We Care About Your Privacy" [ref=e407]:
+        - generic [ref=e409]:
+          - generic [ref=e411]:
+            - heading "We Care About Your Privacy" [level=2] [ref=e412]
+            - generic [ref=e413]: We and our 1007 partners store and access personal data, like browsing data or unique identifiers, on your device. Selecting I Accept enables tracking technologies to support the purposes shown under we and our partners process data to provide. Selecting Reject All or withdrawing your consent will disable them. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Manage Preferences link on the bottom of the webpage [or the floating icon on the bottom-left of the webpage, if applicable]. Your choices will have effect within our Website. For more details, refer to our Privacy Policy.
+            - generic [ref=e414]:
+              - heading "We and our partners process data to provide:" [level=3] [ref=e415]
+              - paragraph [ref=e417]:
+                - text: Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.
+                - button "List of Partners (vendors)" [ref=e418] [cursor=pointer]
+          - generic [ref=e420]:
+            - button "I Accept" [ref=e421] [cursor=pointer]
+            - button "Reject All" [ref=e422] [cursor=pointer]
+            - button "Show Purposes, Opens the preference center dialog" [ref=e423] [cursor=pointer]: Show Purposes
+    - text: Manage Preferences

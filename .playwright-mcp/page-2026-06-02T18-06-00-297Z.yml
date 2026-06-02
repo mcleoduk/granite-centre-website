@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - main [ref=e5]:
+      - article [ref=e9]:
+        - generic [ref=e10]:
+          - heading "This page could not be found!" [level=2] [ref=e11]
+          - paragraph [ref=e12]:
+            - text: We are sorry, but the page you are looking for is not available.
+            - text: Perhaps you can try a new search.
+          - search "Search this website" [ref=e13]:
+            - searchbox "Insert search query" [ref=e14]
+          - link "Back To Homepage" [ref=e15] [cursor=pointer]:
+            - /url: https://www.marbleandgranite.co.uk/
+  - dialog "Compliance by Hu-manity.co" [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: This site uses cookies. Some of them are essential, while others help us improve your experience.
+      - button "I AM OK WITH THAT" [ref=e20] [cursor=pointer]
+      - button "No" [ref=e21] [cursor=pointer]
+  - iframe [ref=e24]:
+    - generic [ref=f44e6]:
+      - text: protected by
+      - strong [ref=f44e7]: reCAPTCHA

@@ -1,0 +1,174 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Ideal Home The home of great ideas for more than 100 years" [ref=e6] [cursor=pointer]:
+          - /url: https://www.idealhome.co.uk
+          - img "Ideal Home" [ref=e9]
+          - generic [ref=e11]: The home of great ideas for more than 100 years
+        - button "Subscribe" [ref=e13] [cursor=pointer]:
+          - text: Subscribe
+          - img [ref=e15]
+        - button [ref=e18] [cursor=pointer]:
+          - img [ref=e20]
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: Sign in
+          - img [ref=e25]
+      - navigation [ref=e27]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Room Decor" [ref=e32] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/decor
+          - listitem [ref=e33]:
+            - link "Garden" [ref=e34] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/garden
+          - listitem [ref=e35]:
+            - link "Homes & Tours" [ref=e36] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/homes
+          - listitem [ref=e37]:
+            - link "Renovation" [ref=e38] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/renovation
+          - listitem [ref=e39]:
+            - link "House Manual" [ref=e40] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/house-manual
+          - listitem [ref=e41]:
+            - link "What to buy" [ref=e42] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/what-to-buy
+          - listitem [ref=e43]:
+            - link "Open House" [ref=e44] [cursor=pointer]:
+              - /url: https://www.idealhome.co.uk/open-house
+          - listitem [ref=e45]:
+            - button "Browse" [ref=e46] [cursor=pointer]
+      - generic [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Sign up to our newsletter" [ref=e50] [cursor=pointer]:
+            - /url: https://www.idealhome.co.uk/homes/sign-up-to-our-newsletters
+            - img [ref=e52]
+            - generic [ref=e54]: Sign up to our newsletter
+        - link "Visit us on Facebook" [ref=e55] [cursor=pointer]:
+          - /url: https://www.facebook.com/idealhome.co.uk
+          - img [ref=e56]
+        - link "Visit us on Twitter" [ref=e59] [cursor=pointer]:
+          - /url: https://twitter.com/idealhome
+          - img [ref=e60]:
+            - img [ref=e64]
+        - link "Visit us on Instagram" [ref=e66] [cursor=pointer]:
+          - /url: https://www.instagram.com/idealhomeuk/
+          - img [ref=e67]
+        - link "Visit us on Pinterest" [ref=e70] [cursor=pointer]:
+          - /url: https://www.pinterest.co.uk/idealhomemag
+          - img [ref=e71]
+        - link "Visit us on Flipboard" [ref=e74] [cursor=pointer]:
+          - /url: https://flipboard.com/@IdealHome
+          - img [ref=e75]
+        - link "Visit us on YouTube" [ref=e78] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/housetohome/featured
+          - img [ref=e79]
+  - main [ref=e82]:
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "Sorry!" [level=1] [ref=e86]
+        - paragraph [ref=e87]: The page you're looking for can't be found.
+      - generic [ref=e88]:
+        - text: "404"
+        - paragraph [ref=e89]:
+          - text: Please try searching our site or
+          - link "start again on our homepage" [ref=e90] [cursor=pointer]:
+            - /url: https://www.idealhome.co.uk
+          - text: .
+        - generic [ref=e92]:
+          - searchbox "Type to search..." [ref=e93]
+          - button "Search" [ref=e94] [cursor=pointer]
+  - region "Main footer" [ref=e95]:
+    - generic [ref=e97]:
+      - generic [ref=e98]: Useful links
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - text: Most Popular
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "Small Living Room Ideas" [ref=e103] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/living-room/living-room-ideas/small-living-room-ideas-87905
+            - listitem [ref=e104]:
+              - link "Easy DIY Updates" [ref=e105] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/diy-and-decorating/easy-diy-projects-246320
+            - listitem [ref=e106]:
+              - link "Home Improvements That Won't Add Value" [ref=e107] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/news/pointless-home-improvements-wont-add-value-203577
+            - listitem [ref=e108]:
+              - link "Energy Saving Tips" [ref=e109] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/property-advice/energy-saving-tips-for-the-home-288124
+        - generic [ref=e110]:
+          - text: Buying Guides
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "Best Mattress" [ref=e113] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/buying-guide-reviews/best-mattress-reviews-204596
+            - listitem [ref=e114]:
+              - link "Best BBQs" [ref=e115] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/buying-guide-reviews/best-bbqs-199688
+            - listitem [ref=e116]:
+              - link "Best Outdoor Furniture" [ref=e117] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/buying-guide-reviews/best-bbqs-199688
+            - listitem [ref=e118]:
+              - link "Best Air Fryers" [ref=e119] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/buying-guide-reviews/best-air-fryers-226692
+        - generic [ref=e120]:
+          - text: subscribe
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "Subscribe to Ideal Home" [ref=e123] [cursor=pointer]:
+                - /url: https://www.magazinesdirect.com/xih-brandsite?promo=
+            - listitem [ref=e124]:
+              - link "Ideal Home Newsletter" [ref=e125] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/homes/sign-up-to-our-newsletters
+            - listitem [ref=e126]:
+              - link "Ideal Home Room Clinic" [ref=e127] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/626901454444640/
+            - listitem [ref=e128]:
+              - link "Subscribe to 25 Beautiful Homes" [ref=e129] [cursor=pointer]:
+                - /url: https://www.magazinesdirect.com/az-magazines/41489131/25-beautiful-homes-subscription.thtml
+    - generic "footer content" [ref=e130]:
+      - generic [ref=e131]:
+        - navigation [ref=e132]:
+          - link "Idealhome" [ref=e133] [cursor=pointer]:
+            - /url: https://www.idealhome.co.uk
+            - img "Idealhome" [ref=e134]
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "About us" [ref=e146] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/about-us
+            - listitem [ref=e147]:
+              - link "Contact Future's experts" [ref=e148] [cursor=pointer]:
+                - /url: https://futureplc.com/contact/
+            - listitem [ref=e149]:
+              - link "Contact us" [ref=e150] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/contact-us
+            - listitem [ref=e151]:
+              - link "Advertise with us" [ref=e152] [cursor=pointer]:
+                - /url: https://go.future-advertising.com/Ideal-Home-Media-Kit.html
+            - listitem [ref=e153]:
+              - link "How We Test" [ref=e154] [cursor=pointer]:
+                - /url: https://www.idealhome.co.uk/all-rooms/how-we-test
+            - listitem [ref=e155]:
+              - link "Terms and conditions" [ref=e156] [cursor=pointer]:
+                - /url: https://www.futureplc.com/terms-conditions/
+            - listitem [ref=e157]:
+              - link "Privacy policy" [ref=e158] [cursor=pointer]:
+                - /url: https://www.futureplc.com/privacy-policy/
+            - listitem [ref=e159]:
+              - link "Cookies policy" [ref=e160] [cursor=pointer]:
+                - /url: https://www.futureplc.com/cookies-policy/
+            - listitem [ref=e161]:
+              - link "Careers" [ref=e162] [cursor=pointer]:
+                - /url: https://www.futureplc.com/careers/
+          - link "Add as a preferred source on Google Add as a preferred source on Google" [ref=e163] [cursor=pointer]:
+            - /url: https://google.com/preferences/source?q=idealhome.co.uk
+            - img "Add as a preferred source on Google" [ref=e165]
+            - generic [ref=e166]: Add as a preferred source on Google
+        - paragraph [ref=e167]:
+          - text: Ideal Home is part of Future plc, an international media group and leading digital publisher.
+          - link "Visit our corporate site" [ref=e168] [cursor=pointer]:
+            - /url: https://futureplc.com/
+          - text: .
+        - paragraph [ref=e169]: © Future Publishing Limited Quay House, The Ambury, Bath BA1 1UA. All rights reserved. England and Wales company registration number 2008885.

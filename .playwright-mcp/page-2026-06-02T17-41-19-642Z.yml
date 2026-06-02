@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - search [ref=e7]:
+        - generic [ref=e8]:
+          - searchbox [ref=e10]
+          - button "" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: 
+      - menubar [ref=e13]:
+        - menuitem "Home" [ref=e14] [cursor=pointer]
+        - menuitem "Worktops" [ref=e15] [cursor=pointer]
+        - menuitem "Quartz" [ref=e16] [cursor=pointer]
+        - menuitem "Porcelain" [ref=e17] [cursor=pointer]
+        - menuitem "Granite" [ref=e18] [cursor=pointer]
+        - menuitem "Corian" [ref=e19] [cursor=pointer]
+        - menuitem "Inspiration" [ref=e20] [cursor=pointer]
+        - menuitem "Contact us today for FREE QUOTE" [ref=e21] [cursor=pointer]
+        - menuitem "Blogs" [ref=e22] [cursor=pointer]
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "" [ref=e25] [cursor=pointer]:
+            - /url: https://www.facebook.com/GraniteTopsUK
+            - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "" [ref=e28] [cursor=pointer]:
+            - /url: https://www.instagram.com/granitetopsuk/?hl=en
+            - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "" [ref=e31] [cursor=pointer]:
+            - /url: https://twitter.com/granitetopsuk
+            - generic [ref=e32]: 
+    - generic [ref=e33]:
+      - banner [ref=e34]:
+        - generic [ref=e36]:
+          - paragraph [ref=e38]:
+            - text: Showroom open today 9am-5pm, Get directions
+            - link "here" [ref=e39] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir//107+Fletcher+Rd,+Preston+PR1+5DP/@53.765602,-2.6881074,17z
+          - paragraph [ref=e41]:
+            - text: Call us Now on
+            - link "01772 651615" [ref=e42] [cursor=pointer]:
+              - /url: tel:01772651615
+        - generic [ref=e45]:
+          - generic [ref=e46] [cursor=pointer]: Menu
+          - link "Granite Tops UK" [ref=e48] [cursor=pointer]:
+            - /url: https://granitetopsuk.co.uk
+          - search:
+            - generic [ref=e49]:
+              - searchbox [ref=e51]
+              - button "" [ref=e52] [cursor=pointer]:
+                - generic [ref=e53]: 
+      - generic [ref=e55]:
+        - heading "Porcelain Worktops" [level=1] [ref=e62]
+        - generic [ref=e70]:
+          - generic [ref=e72]:
+            - heading "Porcelain Worktops Near You" [level=2] [ref=e73]:
+              - strong [ref=e74]: Porcelain Worktops Near You
+            - paragraph [ref=e75]: When we talk about worktops, exceptional durability and resistance to heat, scratches and stains are always demanded. Among other worktop materials, porcelain is a globally popular material known for its long-lasting durability and functionality.
+            - paragraph [ref=e76]:
+              - link "Granite Tops UK" [ref=e77] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/
+                - strong [ref=e78]: Granite Tops UK
+              - text: provides high-quality porcelain worktops in the UK. Our worktops are made with precisely manufactured porcelain material that easily withstand routine scratches, stains and hot utensils.
+            - paragraph [ref=e79]: Our team of expert porcelain worktop manufacturers and installers who prepare your worktops with accurate measurements of your space, whether it is a kitchen, bathroom, or your workplace.
+            - paragraph [ref=e80]: If you are looking for tailored porcelain worktops, contact us. Our experienced worktop installers provide bespoke installation of the worktops that are meant to last for decades.
+          - link "Get a Quote" [ref=e84] [cursor=pointer]:
+            - /url: https://granitetopsuk.co.uk/free-quote/
+            - generic [ref=e86]: Get a Quote
+        - generic [ref=e104]:
+          - heading "How much do porcelain worktops cost?" [level=2] [ref=e105]:
+            - strong [ref=e106]: How much do porcelain worktops cost?
+          - paragraph [ref=e107]: Porcelain worktop costs depend on the slab size, thickness, edge profile, installation complexity, cut-outs, brand, and overall kitchen layout. Premium porcelain surfaces and bespoke fabrication may increase the total installation cost.
+          - heading "Popular Porcelain Worktop Styles" [level=2] [ref=e108]:
+            - strong [ref=e109]: Popular Porcelain Worktop Styles
+          - list [ref=e110]:
+            - listitem [ref=e111]: Marble Effect Porcelain
+            - listitem [ref=e112]: Concrete Effect Porcelain
+            - listitem [ref=e113]: Matte Porcelain
+            - listitem [ref=e114]: Polished Porcelain
+            - listitem [ref=e115]: Bookmatched Porcelain
+        - generic [ref=e117]:
+          - form "New Form" [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - generic [ref=e130] [cursor=pointer]: Name
+                - textbox "Name" [ref=e131]:
+                  - /placeholder: Name*
+              - generic [ref=e132]:
+                - generic [ref=e133] [cursor=pointer]: Email
+                - textbox "Email" [ref=e134]:
+                  - /placeholder: Email*
+              - generic [ref=e135]:
+                - generic [ref=e136] [cursor=pointer]: Phone
+                - textbox "Phone" [ref=e137]:
+                  - /placeholder: Phone*
+              - generic [ref=e138]:
+                - generic [ref=e139] [cursor=pointer]: Subject
+                - textbox "Subject" [ref=e140]
+              - generic [ref=e141]:
+                - generic [ref=e142] [cursor=pointer]: Message
+                - textbox "Message" [ref=e143]
+              - button "Send" [ref=e145]:
+                - generic [ref=e147]: Send
+          - generic [ref=e151]:
+            - heading "Benefits of Installing Porcelain Worktops" [level=2] [ref=e152]:
+              - strong [ref=e153]: Benefits of Installing Porcelain Worktops
+            - paragraph [ref=e154]: Porcelain is a highly resistant, hygienic, and durable material available in a wide range of designs to complement your space’s décor. When talking about worktops, porcelain is a widely preferred material due to its excellent functionality and longevity.
+            - paragraph [ref=e155]: "The following are some of the benefits of installing porcelain worktops:"
+            - list [ref=e156]:
+              - listitem [ref=e157]: Easily withstands heavy use
+              - listitem [ref=e158]: Stain and Chemical Resistant
+              - listitem [ref=e159]: Sleek, modern and versatile design
+              - listitem [ref=e160]: Hygienic surface for food preparation
+              - listitem [ref=e161]: Highly durable, heat-resistant and easy to clean material
+        - generic [ref=e163]:
+          - generic [ref=e165]:
+            - heading "APPLY FOR AN APPOINTMENT" [level=6] [ref=e168]
+            - heading "Let's Talk About Your Project!" [level=5] [ref=e171]
+          - generic [ref=e173]:
+            - link "Get a Quote" [ref=e177] [cursor=pointer]:
+              - /url: https://granitetopsuk.co.uk/free-quote/
+              - generic [ref=e179]: Get a Quote
+            - link "01772 651615" [ref=e183] [cursor=pointer]:
+              - /url: tel:01772651615
+              - generic [ref=e185]: 01772 651615
+        - generic [ref=e187]:
+          - generic [ref=e189]:
+            - heading "What We Offer" [level=3] [ref=e192]
+            - generic [ref=e194]:
+              - heading "Our Bespoke Porcelain Worktop Services" [level=2] [ref=e195]:
+                - strong [ref=e196]: Our Bespoke Porcelain Worktop Services
+              - paragraph [ref=e197]: Granite Tops UK specialises in providing top-notch porcelain worktops for residential and commercial spaces, depending on the particular requirements of every client.
+              - paragraph [ref=e198]: "Our bespoke services include:"
+              - list [ref=e199]:
+                - listitem [ref=e200]: Material selection
+                - listitem [ref=e201]: On-site templating
+                - listitem [ref=e202]: Fabrication
+                - listitem [ref=e203]: Site preparation
+                - listitem [ref=e204]: Installation
+                - listitem [ref=e205]: Finishing
+              - paragraph [ref=e206]: Feel free to contact us to know about our tailored services in detail. Our experts will guide you through every step to ensure your satisfaction.
+          - generic [ref=e210]:
+            - heading "Contact Us Today!" [level=3] [ref=e211]:
+              - strong [ref=e212]: Contact Us Today!
+            - paragraph [ref=e213]: We have a well-organised showroom displaying a wide variety of porcelain worktop designs, allowing customers to choose one according to their taste and décor. You are most welcome to visit it.
+            - paragraph [ref=e214]:
+              - text: If you want to get a quote, book our services, or have any questions, please don’t hesitate to
+              - link "contact us" [ref=e215] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/free-quote/
+              - text: and share your project requirements. We will be happy to help you.
+        - generic [ref=e227]:
+          - heading "How do We Stand Out?" [level=2] [ref=e228]:
+            - strong [ref=e229]: How do We Stand Out?
+          - paragraph [ref=e230]: Granite Tops UK is a renowned worktop making company with a team of expert manufacturers and installers, who use professional equipment at every step to provide high-quality installation service. We have completed hundreds of projects and earned top reviews from our happy customers.
+          - paragraph [ref=e231]: "If you plan to install porcelain worktops for the kitchen or any space, here are the reasons why you should choose us for your project:"
+          - list [ref=e232]:
+            - listitem [ref=e233]: Years of experience in the field
+            - listitem [ref=e234]: Hundreds of projects completed successfully
+            - listitem [ref=e235]: 8+ average rating on our website
+            - listitem [ref=e236]: Skilled worktop manufacturers and installers
+            - listitem [ref=e237]: Tailored services and competitive pricing
+        - generic [ref=e241]:
+          - heading "FAQs" [level=2] [ref=e244]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - button "Are Porcelain Worktops Heat Resistant?" [expanded] [ref=e249] [cursor=pointer]:
+                - generic [ref=e250]:
+                  - text: 
+                  - generic [ref=e252]: 
+                - text: Are Porcelain Worktops Heat Resistant?
+              - region "Are Porcelain Worktops Heat Resistant?" [ref=e253]:
+                - paragraph [ref=e254]: Yes, porcelain worktops are highly heat resistant and can handle hot pans, cookware, and high kitchen temperatures without easily getting damaged.
+            - button "Do you install porcelain ceramic worktops?" [ref=e256] [cursor=pointer]:
+              - generic [ref=e257]:
+                - generic [ref=e259]: 
+                - text: 
+              - text: Do you install porcelain ceramic worktops?
+            - button "Are porcelain kitchen worktops expensive to install?" [ref=e261] [cursor=pointer]:
+              - generic [ref=e262]:
+                - generic [ref=e264]: 
+                - text: 
+              - text: Are porcelain kitchen worktops expensive to install?
+            - button "Do Porcelain Worktops Stain?" [ref=e266] [cursor=pointer]:
+              - generic [ref=e267]:
+                - generic [ref=e269]: 
+                - text: 
+              - text: Do Porcelain Worktops Stain?
+      - contentinfo [ref=e270]:
+        - navigation [ref=e274]:
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "Home" [ref=e277] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/
+            - listitem [ref=e278]:
+              - link "Quartz" [ref=e279] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/quartz/
+            - listitem [ref=e280]:
+              - link "Granite" [ref=e281] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/granite/
+            - listitem [ref=e282]:
+              - link "Corian" [ref=e283] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/corian/
+            - listitem [ref=e284]:
+              - link "Inspiration" [ref=e285] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/inspiration/
+            - listitem [ref=e286]:
+              - link "Contact us today for FREE QUOTE" [ref=e287] [cursor=pointer]:
+                - /url: https://granitetopsuk.co.uk/free-quote/
+        - generic [ref=e291]:
+          - generic [ref=e293]:
+            - link "Granite Tops UK" [ref=e294] [cursor=pointer]:
+              - /url: https://granitetopsuk.co.uk
+            - paragraph [ref=e295]:
+              - text: 107/109 FLETCHER ROAD,
+              - text: PRESTON,
+              - text: PR1 5JG
+              - text: (FOR SAT-NAV PLEASE USE PR1 5DP)
+            - list [ref=e296]:
+              - listitem [ref=e297]:
+                - link "" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.facebook.com/GraniteTopsUK
+                  - generic [ref=e299]: 
+              - listitem [ref=e300]:
+                - link "" [ref=e301] [cursor=pointer]:
+                  - /url: https://www.instagram.com/granitetopsuk/?hl=en
+                  - generic [ref=e302]: 
+              - listitem [ref=e303]:
+                - link "" [ref=e304] [cursor=pointer]:
+                  - /url: https://twitter.com/granitetopsuk
+                  - generic [ref=e305]: 
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - text: CALL
+              - link " 01772 651615" [ref=e309] [cursor=pointer]:
+                - /url: tel:01772651615
+                - generic [ref=e310]: 
+                - text: 01772 651615
+              - text: EMAIL
+              - link " quotes@granitetopsuk.com" [ref=e311] [cursor=pointer]:
+                - /url: mailto:quotes@granitetopsuk.com
+                - generic [ref=e312]: 
+                - text: quotes@granitetopsuk.com
+            - generic [ref=e313]:
+              - figure [ref=e314]
+              - figure [ref=e315]
+          - generic [ref=e316]:
+            - heading "Opening times" [level=4] [ref=e317]
+            - list [ref=e319]:
+              - listitem [ref=e320]:
+                - generic [ref=e321]: Monday
+                - generic [ref=e322]: 9AM-5PM
+              - listitem [ref=e323]:
+                - generic [ref=e324]: Tuesday
+                - generic [ref=e325]: 9AM-5PM
+              - listitem [ref=e326]:
+                - generic [ref=e327]: Wednesday
+                - generic [ref=e328]: 9AM-5PM
+              - listitem [ref=e329]:
+                - generic [ref=e330]: Thursday
+                - generic [ref=e331]: 9AM-5PM
+              - listitem [ref=e332]:
+                - generic [ref=e333]: Friday
+                - generic [ref=e334]: 9AM-5PM
+              - listitem [ref=e335]:
+                - generic [ref=e336]: Saturday
+                - generic [ref=e337]: 10AM-2:30PM
+              - listitem [ref=e338]:
+                - generic [ref=e339]: Sunday
+                - generic [ref=e340]: CLOSED
+        - generic [ref=e342]:
+          - paragraph [ref=e344]: © Granite Tops UK2026 | All Rights Reserved
+          - paragraph [ref=e346]:
+            - text: Design and build by
+            - link "Stone Create" [ref=e347] [cursor=pointer]:
+              - /url: https://stonecreate.com/
+  - generic [ref=e348]:
+    - text: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+    - link "Ok" [ref=e349] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e350]: desktop
+  - iframe [ref=e353]:
+    - generic [ref=f3e6]:
+      - text: protected by
+      - strong [ref=f3e7]: reCAPTCHA
+  - generic:
+    - dialog "Reviews badge":
+      - generic [ref=e359] [cursor=pointer]:
+        - img [ref=e364]
+        - generic [ref=e374]:
+          - 'img "Rating: 4.8 out of 5" [ref=e375]':
+            - generic [ref=e376]: "4.8"
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - img [ref=e380]
+                - img [ref=e384]
+              - generic [ref=e387]:
+                - img [ref=e389]
+                - img [ref=e393]
+              - generic [ref=e396]:
+                - img [ref=e398]
+                - img [ref=e402]
+              - generic [ref=e405]:
+                - img [ref=e407]
+                - img [ref=e411]
+              - generic [ref=e414]:
+                - img [ref=e416]
+                - img [ref=e420]
+          - generic [ref=e423]: 184 reviews

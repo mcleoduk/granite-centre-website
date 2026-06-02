@@ -1,0 +1,572 @@
+- generic [active] [ref=e1]:
+  - img:
+    - generic:
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+  - banner [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#skip-to-content"
+      - generic [ref=e4]: Skip to content
+    - generic [ref=e5]:
+      - link "Visit The Spruce's homepage" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: Visit The Spruce's homepage
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Visit The Spruce's Instagram" [ref=e14] [cursor=pointer]:
+            - /url: https://www.instagram.com/TheSpruceOfficial/
+            - img [ref=e15]
+            - text: 584K
+        - listitem [ref=e17]:
+          - link "Visit The Spruce's TikTok" [ref=e18] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@thespruceofficial
+            - img [ref=e19]
+            - text: 747K
+        - listitem [ref=e21]:
+          - link "Visit The Spruce's Pinterest" [ref=e22] [cursor=pointer]:
+            - /url: https://www.pinterest.com/thespruceofficial/
+            - img [ref=e23]
+            - text: 909K
+        - listitem [ref=e25]:
+          - link "Visit The Spruce's Facebook" [ref=e26] [cursor=pointer]:
+            - /url: https://www.facebook.com/thespruceofficial/
+            - img [ref=e27]
+            - text: 1.3M
+      - button "Newsletters" [ref=e29] [cursor=pointer]:
+        - img [ref=e30]
+        - generic [ref=e32]: Newsletters
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - button "Search" [ref=e37] [cursor=pointer]:
+            - img [ref=e38]
+    - text: 584K 747K 909K 1.3M
+    - navigation "Header" [ref=e40]:
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Decor" [ref=e44] [cursor=pointer]:
+            - /url: https://www.thespruce.com/home-design-and-decorating-4127998
+        - listitem [ref=e45]:
+          - link "Garden" [ref=e46] [cursor=pointer]:
+            - /url: https://www.thespruce.com/gardening-4127780
+        - listitem [ref=e47]:
+          - link "Home Improvement" [ref=e48] [cursor=pointer]:
+            - /url: https://www.thespruce.com/home-improvement-4127862
+        - listitem [ref=e49]:
+          - link "Cleaning" [ref=e50] [cursor=pointer]:
+            - /url: https://www.thespruce.com/cleaning-and-organizing-4127927
+        - listitem [ref=e51]:
+          - link "Celebrations" [ref=e52] [cursor=pointer]:
+            - /url: https://www.thespruce.com/celebrations-4163111
+        - listitem [ref=e53]:
+          - link "What to Buy" [ref=e54] [cursor=pointer]:
+            - /url: https://www.thespruce.com/best-home-products-4135328
+        - listitem [ref=e55]:
+          - link "News" [ref=e56] [cursor=pointer]:
+            - /url: https://www.thespruce.com/home-news-5070015
+        - listitem [ref=e57]:
+          - link "About Us" [ref=e58] [cursor=pointer]:
+            - /url: https://www.thespruce.com/about-us-4776800
+  - list [ref=e63]:
+    - listitem [ref=e64]: Top Stories
+    - listitem [ref=e65]:
+      - link "7 Energy Bill Tricks for Summer" [ref=e67] [cursor=pointer]:
+        - /url: https://www.thespruce.com/energy-bill-tricks-11961887
+        - generic [ref=e70]: 7 Energy Bill Tricks for Summer
+    - listitem [ref=e71]:
+      - link "6 Ways to Reduce Road Noise" [ref=e73] [cursor=pointer]:
+        - /url: https://www.thespruce.com/how-to-reduce-road-noise-in-home-11961886
+        - generic [ref=e76]: 6 Ways to Reduce Road Noise
+    - listitem [ref=e77]:
+      - link "Aging in Place Renos You Should Get to" [ref=e79] [cursor=pointer]:
+        - /url: https://www.thespruce.com/best-aging-in-place-renovations-11965673
+        - generic [ref=e82]: Aging in Place Renos You Should Get to
+    - listitem [ref=e83]:
+      - link "Window AC vs. Mini Split Units" [ref=e85] [cursor=pointer]:
+        - /url: https://www.thespruce.com/mini-split-vs-window-unit-ac-11967852
+        - generic [ref=e88]: Window AC vs. Mini Split Units
+  - main [ref=e92]:
+    - article [ref=e93]:
+      - generic [ref=e95]:
+        - heading "How to Set Standard Outlet and Light Switch Heights" [level=1] [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - text: By
+              - link "Lee Wallender" [ref=e102] [cursor=pointer]:
+                - /url: https://www.thespruce.com/lee-wallender-1820958
+            - text: Updated on 04/30/25
+          - generic [ref=e104]:
+            - img [ref=e105]
+            - text: Reviewed by
+            - link "Larry Campbell" [ref=e108] [cursor=pointer]:
+              - /url: https://www.thespruce.com/larry-d-campbell-4795932
+          - generic [ref=e110]:
+            - img [ref=e111]
+            - text: Fact checked by
+            - link "Jessica Wrubel" [ref=e114] [cursor=pointer]:
+              - /url: https://www.thespruce.com/jessica-wrubel-5200305
+      - 'figure "Credit: The Spruce / Kevin Norris" [ref=e116]':
+        - generic "Outlet or wall switch boxes placed in different heights" [ref=e119]
+        - generic [ref=e121]:
+          - text: "Credit:"
+          - paragraph [ref=e122]: The Spruce / Kevin Norris
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: In This Article
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - link "Outlet Height From Floor" [ref=e131] [cursor=pointer]:
+                  - /url: "#toc-outlet-height-from-floor"
+              - listitem [ref=e132]:
+                - link "Countertop Outlet Height" [ref=e134] [cursor=pointer]:
+                  - /url: "#toc-countertop-outlet-height"
+              - listitem [ref=e135]:
+                - link "Light Switch Height" [ref=e137] [cursor=pointer]:
+                  - /url: "#toc-light-switch-height"
+              - listitem [ref=e138]:
+                - link "5 Ways to Measure Outlet and Switch Height" [ref=e140] [cursor=pointer]:
+                  - /url: "#toc-5-ways-to-measure-outlet-and-switch-height"
+              - listitem [ref=e141]:
+                - link "Code Guidance" [ref=e143] [cursor=pointer]:
+                  - /url: "#toc-nec-code-guidance-on-outlet-and-switch-heights"
+              - listitem [ref=e144]:
+                - link "FAQ" [ref=e146] [cursor=pointer]:
+                  - /url: "#toc-faq-3282cd9c-464b-4307-84bf-7d35e73fe385"
+          - button "Back to Top" [ref=e147] [cursor=pointer]:
+            - img [ref=e148]
+            - text: Back to Top
+        - generic [ref=e150]:
+          - paragraph [ref=e151]: Setting electrical outlets and wall switches for standard, uniform heights is important both for ease of installation and for user convenience.
+          - paragraph [ref=e152]: Height variances make it more difficult to fish cable through the walls. Uniformity is critical when placing the insulation in the walls and attaching drywall to the studs. More important is how the switches and outlets work for users. Irregular heights for light switches, for instance, can be disorienting and unsafe.
+          - paragraph [ref=e153]: Use this guide to learn the standard light switch and outlet heights for floors, counters, and more, plus the best ways to measure them, and what codes you may need to follow.
+          - figure [ref=e154]:
+            - table [ref=e156]:
+              - rowgroup [ref=e159]:
+                - row "Area Recommended Height" [ref=e160]:
+                  - cell "Area" [ref=e161]
+                  - cell "Recommended Height" [ref=e162]
+                - row "Outlet height 12 inches above the floor to the bottom of the box" [ref=e163]:
+                  - cell "Outlet height" [ref=e164]
+                  - cell "12 inches above the floor to the bottom of the box" [ref=e165]
+                - row "Countertop outlet height Tops between 15 and 20 inches from the countertop surface" [ref=e166]:
+                  - cell "Countertop outlet height" [ref=e167]
+                  - cell "Tops between 15 and 20 inches from the countertop surface" [ref=e168]
+                - row "Outlet height (special needs) 12 to 15 inches" [ref=e169]:
+                  - cell "Outlet height (special needs)" [ref=e170]
+                  - cell "12 to 15 inches" [ref=e171]
+                - row "Light switch height 48 inches" [ref=e172]:
+                  - cell "Light switch height" [ref=e173]
+                  - cell "48 inches" [ref=e174]
+                - row "Light switch height (special needs) 44 to 48 inches" [ref=e175]:
+                  - cell "Light switch height (special needs)" [ref=e176]
+                  - cell "44 to 48 inches" [ref=e177]
+          - heading "Outlet Height From Floor" [level=2] [ref=e178]
+          - paragraph [ref=e179]: The standard height for wall outlet boxes is about 12 inches from the top of the floor covering to the bottom of the receptacle box (or 16 inches to the top of the box).
+          - paragraph [ref=e180]:
+            - text: If you are setting box heights before the installation of the
+            - link "subfloor" [ref=e181] [cursor=pointer]:
+              - /url: https://www.thespruce.com/floor-layers-explained-4120153
+            - text: ", floor covering, or any"
+            - link "underlayment" [ref=e182] [cursor=pointer]:
+              - /url: https://www.thespruce.com/flooring-underlayment-1821628
+            - text: ", be sure to account for this expected height difference. If you have actual samples of the materials, it's helpful to stack them together and work off of that."
+          - paragraph [ref=e183]: For people with disabilities or older adults, 15 inches above the top of the floor covering is usually considered the lowest standard height, but the outlet can be as high as required. People who use wheelchairs may benefit from slightly higher outlet boxes, with the bottom of the box no less than 15 inches above the floor.
+          - heading "Countertop Outlet Height" [level=2] [ref=e184]
+          - paragraph [ref=e185]: On countertop outlets, it is standard to install outlet boxes so the tops are between 15 and 20 inches from the countertop surface. Make sure all outlet boxes are set at the same height since these outlets will be highly visible.
+          - heading "Light Switch Height" [level=2] [ref=e186]
+          - paragraph [ref=e187]:
+            - text: The standard height for wall switches in most rooms (excluding those over
+            - link "kitchen counters" [ref=e188] [cursor=pointer]:
+              - /url: https://www.thespruce.com/kitchen-countertop-materials-1822100
+            - text: ) is 48 inches above the top of the floor covering (measured to the bottom of the box).
+          - paragraph [ref=e189]:
+            - text: According to the Fair Housing Act accessibility guidelines, often-used controls like light switches, outlets, and thermostats need to be in accessible locations.
+            - generic [ref=e190] [cursor=pointer]: "[ 1 ]"
+            - text: For people with disabilities, 48 inches is usually specified as the maximum height, since higher levels can be difficult to reach for people who use a wheelchair. In these situations, it is fine to position them slightly lower, with the bottom of the box 44 inches above the floor, for example.
+          - heading "5 Ways to Measure Outlet and Switch Height" [level=2] [ref=e191]
+          - paragraph [ref=e192]: Individually measuring each outlet height with a tape measure is one way to set outlet heights. But there are a few other tricks you might wish to use to speed up the process.
+          - heading "Measure With a Tape Measure" [level=3] [ref=e193]
+          - paragraph [ref=e194]: With a tape measure close at hand, you can quickly measure outlet and switch heights by starting the hook end on the floor and measuring upward.
+          - 'figure "Credit: The Spruce / Kevin Norris" [ref=e195]':
+            - img "Measuring tape on wooden beam for standard height of wall outlet or switch box" [ref=e198]
+            - generic [ref=e200]:
+              - text: "Credit:"
+              - paragraph [ref=e201]: The Spruce / Kevin Norris
+          - heading "Measure With a Laser Level" [level=3] [ref=e202]
+          - paragraph [ref=e203]: Determine your preferred box height and make a single mark on any stud. With a laser level placed on the other side of the room, shoot a line across the entire length of the wall you are working on. Use the mark on the wall as your starting point. Work off this line as you place each box, or, to preserve batteries, make pencil marks on studs and then shut off the laser level.
+          - paragraph [ref=e204]: If you turn off the level function on the laser level if you just want to draw a straight line, irrespective of floor level. Or you can keep the level function on in order to set box height in relation to the floor.
+          - 'figure "Credit: The Spruce / Kevin Norris" [ref=e205]':
+            - img "Laser level determining height for wall outlet or switch box across wooden beams" [ref=e208]
+            - generic [ref=e210]:
+              - text: "Credit:"
+              - paragraph [ref=e211]: The Spruce / Kevin Norris
+          - heading "Measure With a Drywall Square" [level=3] [ref=e212]
+          - paragraph [ref=e213]: This quick method works best before the floor covering is installed. If you have a drywall square, place the long end of the square's "T" perpendicular to the floor. Hold the longest part of the square roughly parallel to the floor. Mark a line across four studs by running your pencil along the bottom part of the straightedge. Place the receptacles at this height. This gives you a height of 14 inches. If you then lay a floor, thus raising the floor level, you end up with a height of roughly 12 inches above the floor.
+          - 'figure "Credit: The Spruce / Kevin Norris" [ref=e214]':
+            - img "Drywall square measuring height for blue wall outlet or switch box and marking wooden beam" [ref=e217]
+            - generic [ref=e219]:
+              - text: "Credit:"
+              - paragraph [ref=e220]: The Spruce / Kevin Norris
+          - heading "Measure With a Hammer" [level=3] [ref=e221]
+          - paragraph [ref=e222]:
+            - text: Most 16-ounce
+            - link "hammers" [ref=e223] [cursor=pointer]:
+              - /url: https://www.thespruce.com/tips-for-properly-using-a-hammer-1825125
+            - text: are about 13 inches long. Set the hammer on the floor with the head down, then set the box on top of the hammer handle, resulting in a roughly
+            - link "12-inch high outlet" [ref=e224] [cursor=pointer]:
+              - /url: https://www.thespruce.com/height-to-install-switches-1152823
+            - text: height after the floor covering is installed.
+          - 'figure "Credit: The Spruce / Kevin Norris" [ref=e225]':
+            - img "Yellow and black hammer standing up against wooden beam to determine wall outlet or switch box height" [ref=e228]
+            - generic [ref=e230]:
+              - text: "Credit:"
+              - paragraph [ref=e231]: The Spruce / Kevin Norris
+          - heading "Measure With a Story Pole" [level=3] [ref=e232]
+          - paragraph [ref=e233]: A story pole is a homemade tool that's nothing more than a piece of scrap two-by-four or any type of lumber clearly marked with any height you need.
+          - paragraph [ref=e234]: You need to measure only once, when you first make the story pole. You can use a single story pole for all of your box heights, and you can even mark different heights (outlets and light switches) on the same story pole. It helps to outline both the top and bottom of the wall box on the story pole, to avoid confusion when marking studs.
+          - paragraph [ref=e235]:
+            - text: Simply stand up the pole next to a
+            - link "wall stud" [ref=e236] [cursor=pointer]:
+              - /url: https://www.thespruce.com/how-to-find-studs-without-a-stud-finder-7488471
+            - text: and mark the stud at the appropriate height. Make sure to mark the pole clearly. Notes like "bottom of outlet box" and "center of switch box" help prevent mistakes. When you are finished with your project, store the pole for later use or recycle it for use as a building material.
+          - 'figure "Credit: The Spruce / Kevin Norris" [ref=e237]':
+            - img "Story pole wooden beam with markings for top and bottom of wall outlet or switch box" [ref=e240]
+            - generic [ref=e242]:
+              - text: "Credit:"
+              - paragraph [ref=e243]: The Spruce / Kevin Norris
+          - paragraph [ref=e246]:
+            - text: A story pole doesn't even need to be a
+            - emphasis [ref=e247]: pole
+            - text: ": It can be anything tall enough to indicate the height of the outlet or light switch. Use a toolbox, storage box, work light tripod, or anything that you commonly use when working."
+          - heading "NEC Code Guidance on Outlet and Switch Heights" [level=2] [ref=e248]
+          - paragraph [ref=e249]:
+            - text: Although the
+            - link "National Electrical Code" [ref=e250] [cursor=pointer]:
+              - /url: https://www.thespruce.com/electrical-code-for-outlets-1821513
+            - text: (NEC) has many precise regulations for most aspects of residential wiring, it does not specify a height for standard wall outlets (receptacles) or light switches.
+          - paragraph [ref=e251]:
+            - text: As a result, heights are often a matter of convention or preference. However, your
+            - link "local electrical code" [ref=e252] [cursor=pointer]:
+              - /url: https://www.thespruce.com/kitchen-electrical-code-basics-1821527
+            - text: is the ultimate voice in these matters, since municipalities often adopt and adapt model building codes. Be sure to check with your city's building department for any specific requirements.
+          - paragraph [ref=e253]: Without guidance from the NEC, electricians typically follow common professional standards, within an acceptable range, for box installation heights.
+          - paragraph [ref=e254]: While it's best to stick to box height standards as much as possible, there’s room for adjustments. For example, if you are finding it too difficult to drive a nail into a wood knot in one of the studs, it is permissible to move the box slightly up or down to avoid the knot.
+          - generic [ref=e255]:
+            - generic [ref=e256]: FAQ
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - generic [ref=e260]: What is the 6/12 rule for electrical outlets?
+                - paragraph [ref=e264]: In general, the NEC requires outlets to be installed no more than 12 feet apart in living areas and 6 feet apart in kitchens and bathrooms.
+              - listitem [ref=e265]:
+                - generic [ref=e267]: Are there spacing standards for floor outlets?
+                - paragraph [ref=e271]: Floor outlets can be practical and discreet. The NEC does have standards for floor outlets. For example, they must be located within 18 inches of a wall to count towards the required number of outlets in a room. For more information on floor outlets, check NEC's guidelines.
+              - listitem [ref=e272]:
+                - generic [ref=e274]: How much does it cost to replace outlets?
+                - paragraph [ref=e278]:
+                  - text: Costs differ depending on if you are replacing, rewiring, or adding an outlet and what type you are installing. A basic outlet can cost around $40 to replace,
+                  - link "GFCI outlets" [ref=e279] [cursor=pointer]:
+                    - /url: https://www.thespruce.com/upgrade-2-prong-outlet-new-gfci-1824671
+                  - text: can cost double or more to replace, and rewiring or adding a new outlet can cost around $1,000.
+                  - generic [ref=e280] [cursor=pointer]: "[ 2 ]"
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]: "Explore more:"
+          - list [ref=e284]:
+            - listitem [ref=e285]:
+              - link "Home Improvement" [ref=e286] [cursor=pointer]:
+                - /url: https://www.thespruce.com/home-improvement-4127862
+            - listitem [ref=e287]:
+              - link "Skills & Specialties" [ref=e288] [cursor=pointer]:
+                - /url: https://www.thespruce.com/skills-and-specialties-5185531
+            - listitem [ref=e289]:
+              - link "Electrical" [ref=e290] [cursor=pointer]:
+                - /url: https://www.thespruce.com/electrical-4127800
+        - generic [ref=e294] [cursor=pointer]:
+          - generic [ref=e295]: Sources
+          - img [ref=e296]
+    - generic [ref=e339]:
+      - heading "More from The Spruce" [level=2] [ref=e340]
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - link "three way switch Wiring & Circuits What Is a 3-Way Switch? Parts and Wiring By Timothy Thiele" [ref=e343] [cursor=pointer]:
+            - /url: https://www.thespruce.com/anatomy-of-a-three-way-switch-1152436
+            - img "three way switch" [ref=e347]
+            - generic [ref=e348]:
+              - text: Wiring & Circuits
+              - generic [ref=e349]: What Is a 3-Way Switch? Parts and Wiring
+              - generic [ref=e350]: By Timothy Thiele
+          - 'link "View Of Fairy Lights On Ground Indoors Wiring & Circuits Series vs Parallel Circuits: What''s the Difference? By Timothy Thiele" [ref=e351] [cursor=pointer]':
+            - /url: https://www.thespruce.com/series-and-parallel-circuits-the-basics-1152850
+            - img "View Of Fairy Lights On Ground Indoors" [ref=e355]
+            - generic [ref=e356]:
+              - text: Wiring & Circuits
+              - generic [ref=e357]: "Series vs Parallel Circuits: What's the Difference?"
+              - generic [ref=e358]: By Timothy Thiele
+          - link "Various electrical wires Wiring & Circuits 10 Different Types of Electrical Wire and How to Choose One By Timothy Thiele and Kamron Sanders" [ref=e359] [cursor=pointer]:
+            - /url: https://www.thespruce.com/types-of-electrical-wire-1152855
+            - img "Various electrical wires" [ref=e363]
+            - generic [ref=e364]:
+              - text: Wiring & Circuits
+              - generic [ref=e365]: 10 Different Types of Electrical Wire and How to Choose One
+              - generic [ref=e366]: By Timothy Thiele and Kamron Sanders
+          - link "Single pole switch turned on by hand Wiring & Circuits How to Wire a Single-Pole Light Switch By Timothy Thiele" [ref=e367] [cursor=pointer]:
+            - /url: https://www.thespruce.com/how-to-wire-and-install-single-pole-switches-1152330
+            - img "Single pole switch turned on by hand" [ref=e371]
+            - generic [ref=e372]:
+              - text: Wiring & Circuits
+              - generic [ref=e373]: How to Wire a Single-Pole Light Switch
+              - generic [ref=e374]: By Timothy Thiele
+          - link "Replacing a ballast on a fluorescent light fixture Wiring & Circuits How to Change the Ballast on a Fluorescent Light Fixture By Timothy Thiele" [ref=e375] [cursor=pointer]:
+            - /url: https://www.thespruce.com/ballast-gone-ballistic-1152461
+            - img "Replacing a ballast on a fluorescent light fixture" [ref=e379]
+            - generic [ref=e380]:
+              - text: Wiring & Circuits
+              - generic [ref=e381]: How to Change the Ballast on a Fluorescent Light Fixture
+              - generic [ref=e382]: By Timothy Thiele
+          - link "Light bulb held in hand in front of empty light fixture Electrical What Light Bulb Wattage Do You Need? By Timothy Thiele" [ref=e383] [cursor=pointer]:
+            - /url: https://www.thespruce.com/wrong-light-bulb-wattage-1152517
+            - img "Light bulb held in hand in front of empty light fixture" [ref=e387]
+            - generic [ref=e388]:
+              - text: Electrical
+              - generic [ref=e389]: What Light Bulb Wattage Do You Need?
+              - generic [ref=e390]: By Timothy Thiele
+          - link "Running sink faucet with jammed garbage disposal unit Appliances How to Fix a Jammed Sink Disposal With an Allen Wrench By Stephen Hallo III" [ref=e391] [cursor=pointer]:
+            - /url: https://www.thespruce.com/unjamming-a-garbage-disposal-unit-2718875
+            - img "Running sink faucet with jammed garbage disposal unit" [ref=e395]
+            - generic [ref=e396]:
+              - text: Appliances
+              - generic [ref=e397]: How to Fix a Jammed Sink Disposal With an Allen Wrench
+              - generic [ref=e398]: By Stephen Hallo III
+          - link "Expansion tank installed over water heater with copper pipe Plumbing How to Install a Water Heater Expansion Tank By Aaron Stickley" [ref=e399] [cursor=pointer]:
+            - /url: https://www.thespruce.com/installing-an-expansion-tank-2719066
+            - img "Expansion tank installed over water heater with copper pipe" [ref=e403]
+            - generic [ref=e404]:
+              - text: Plumbing
+              - generic [ref=e405]: How to Install a Water Heater Expansion Tank
+              - generic [ref=e406]: By Aaron Stickley
+        - generic [ref=e409]:
+          - link "Water being poured from refrigerator into glass cup with ice Plumbing How to Install a Water Line for a Refrigerator By Aaron Stickley" [ref=e410] [cursor=pointer]:
+            - /url: https://www.thespruce.com/ice-maker-refrigerator-water-line-2718666
+            - img "Water being poured from refrigerator into glass cup with ice" [ref=e414]
+            - generic [ref=e415]:
+              - text: Plumbing
+              - generic [ref=e416]: How to Install a Water Line for a Refrigerator
+              - generic [ref=e417]: By Aaron Stickley
+          - link "Water level tube cleaned with cotton swab on back of washing machine Appliances How to Test a Washing Machine Water Level Switch By Bob Formisano" [ref=e418] [cursor=pointer]:
+            - /url: https://www.thespruce.com/repair-washing-machine-water-level-fill-switch-1824607
+            - img "Water level tube cleaned with cotton swab on back of washing machine" [ref=e422]
+            - generic [ref=e423]:
+              - text: Appliances
+              - generic [ref=e424]: How to Test a Washing Machine Water Level Switch
+              - generic [ref=e425]: By Bob Formisano
+          - link "Open dishwasher Kitchen Cleaning If You're Trying to Lower Your Utility Bill, This Underrated Dishwasher Setting Might Help By Emily Benda Gaylord" [ref=e426] [cursor=pointer]:
+            - /url: https://www.thespruce.com/best-dishwasher-setting-for-utility-bills-11965720
+            - img "Open dishwasher" [ref=e430]
+            - generic [ref=e431]:
+              - text: Kitchen Cleaning
+              - generic [ref=e432]: If You're Trying to Lower Your Utility Bill, This Underrated Dishwasher Setting Might Help
+              - generic [ref=e433]: By Emily Benda Gaylord
+          - link "woman examining a breaker box Electrical Problems & Repairs What Happens When a Fuse Blows and How to Fix It By Timothy Thiele" [ref=e434] [cursor=pointer]:
+            - /url: https://www.thespruce.com/why-do-fuses-blow-1152722
+            - img "woman examining a breaker box" [ref=e438]
+            - generic [ref=e439]:
+              - text: Electrical Problems & Repairs
+              - generic [ref=e440]: What Happens When a Fuse Blows and How to Fix It
+              - generic [ref=e441]: By Timothy Thiele
+          - link "Wires in electric box Wiring & Circuits How to Cap Electrical Wires By Lee Wallender" [ref=e442] [cursor=pointer]:
+            - /url: https://www.thespruce.com/how-to-cap-dangling-electrical-wires-1821573
+            - img "Wires in electric box" [ref=e446]
+            - generic [ref=e447]:
+              - text: Wiring & Circuits
+              - generic [ref=e448]: How to Cap Electrical Wires
+              - generic [ref=e449]: By Lee Wallender
+          - link "Circuit breaker in service panel being replaced Wiring & Circuits How to Replace a Circuit Breaker By Timothy Thiele" [ref=e450] [cursor=pointer]:
+            - /url: https://www.thespruce.com/safely-install-a-circuit-breaker-1152745
+            - img "Circuit breaker in service panel being replaced" [ref=e454]
+            - generic [ref=e455]:
+              - text: Wiring & Circuits
+              - generic [ref=e456]: How to Replace a Circuit Breaker
+              - generic [ref=e457]: By Timothy Thiele
+          - link "Power cord being connected with screwdriver to electric range on back of oven Appliances How to Connect the Power Cord of an Electric Range By Timothy Thiele" [ref=e458] [cursor=pointer]:
+            - /url: https://www.thespruce.com/how-to-connect-a-range-cord-1152254
+            - img "Power cord being connected with screwdriver to electric range on back of oven" [ref=e462]
+            - generic [ref=e463]:
+              - text: Appliances
+              - generic [ref=e464]: How to Connect the Power Cord of an Electric Range
+              - generic [ref=e465]: By Timothy Thiele
+          - link "voltage tester Electrical 8 Different Types of Electrical Testers and How to Choose One By Timothy Thiele" [ref=e466] [cursor=pointer]:
+            - /url: https://www.thespruce.com/top-electrical-testers-1152571
+            - img "voltage tester" [ref=e470]
+            - generic [ref=e471]:
+              - text: Electrical
+              - generic [ref=e472]: 8 Different Types of Electrical Testers and How to Choose One
+              - generic [ref=e473]: By Timothy Thiele
+  - contentinfo [ref=e476]:
+    - generic [ref=e477]:
+      - generic [ref=e478]:
+        - link "Visit The Spruce's homepage" [ref=e479] [cursor=pointer]:
+          - /url: /
+          - img [ref=e480]
+          - generic [ref=e482]: Visit The Spruce's homepage
+        - generic [ref=e483]:
+          - generic [ref=e484]: Get daily tips and tricks for making your best home.
+          - button "Subscribe" [ref=e485] [cursor=pointer]
+        - generic [ref=e486]:
+          - generic [ref=e487]: "Follow us:"
+          - list [ref=e488]:
+            - listitem [ref=e489]:
+              - link "Visit The Spruce's Instagram" [ref=e490] [cursor=pointer]:
+                - /url: https://www.instagram.com/thespruceofficial/
+                - img [ref=e491]
+            - listitem [ref=e493]:
+              - link "Visit The Spruce's TikTok" [ref=e494] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@thespruceofficial
+                - img [ref=e495]
+            - listitem [ref=e497]:
+              - link "Visit The Spruce's Pinterest" [ref=e498] [cursor=pointer]:
+                - /url: https://www.pinterest.com/thespruceofficial/
+                - img [ref=e499]
+            - listitem [ref=e501]:
+              - link "Visit The Spruce's Facebook" [ref=e502] [cursor=pointer]:
+                - /url: https://www.facebook.com/thespruceofficial/
+                - img [ref=e503]
+        - list [ref=e505]:
+          - listitem [ref=e506]:
+            - link "Decor" [ref=e507] [cursor=pointer]:
+              - /url: https://www.thespruce.com/home-design-and-decorating-4127998
+          - listitem [ref=e508]:
+            - link "Garden" [ref=e509] [cursor=pointer]:
+              - /url: https://www.thespruce.com/gardening-4127780
+          - listitem [ref=e510]:
+            - link "Home Improvement" [ref=e511] [cursor=pointer]:
+              - /url: https://www.thespruce.com/home-improvement-4127862
+          - listitem [ref=e512]:
+            - link "Cleaning" [ref=e513] [cursor=pointer]:
+              - /url: https://www.thespruce.com/cleaning-and-organizing-4127927
+          - listitem [ref=e514]:
+            - link "Celebrations" [ref=e515] [cursor=pointer]:
+              - /url: https://www.thespruce.com/celebrations-4163111
+          - listitem [ref=e516]:
+            - link "What to Buy" [ref=e517] [cursor=pointer]:
+              - /url: https://www.thespruce.com/best-home-products-4135328
+          - listitem [ref=e518]:
+            - link "News" [ref=e519] [cursor=pointer]:
+              - /url: https://www.thespruce.com/home-news-5070015
+        - list [ref=e520]:
+          - listitem [ref=e521]:
+            - link "About Us" [ref=e522] [cursor=pointer]:
+              - /url: /about-us-4776800
+          - listitem [ref=e523]:
+            - link "Terms of Service" [ref=e524] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-termsofservice
+          - listitem [ref=e525]:
+            - link "Editorial Guidelines" [ref=e526] [cursor=pointer]:
+              - /url: /about-us-4776800#toc-editorial-guidelines
+          - listitem [ref=e527]:
+            - link "Advertise" [ref=e528] [cursor=pointer]:
+              - /url: https://www.people.inc/advertising
+          - listitem [ref=e529]:
+            - link "Careers" [ref=e530] [cursor=pointer]:
+              - /url: https://www.people.inc/careers
+          - listitem [ref=e531]:
+            - link "Privacy Policy" [ref=e532] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-privacy
+          - listitem [ref=e533]:
+            - link "Contact" [ref=e534] [cursor=pointer]:
+              - /url: /about-us-4776800#toc-contact-us
+          - listitem [ref=e535]:
+            - button "EU Privacy" [ref=e536] [cursor=pointer]
+      - generic [ref=e539]:
+        - img [ref=e540]
+        - generic [ref=e543]:
+          - text: The Spruce is part of the
+          - link "People Inc." [ref=e544] [cursor=pointer]:
+            - /url: https://www.people.inc
+          - text: publishing family.
+  - dialog "We Care About Your Privacy" [ref=e546]:
+    - generic [ref=e548]:
+      - generic [ref=e550]:
+        - heading "We Care About Your Privacy" [level=2] [ref=e551]
+        - generic [ref=e552]: We and our 100 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.
+        - generic [ref=e553]:
+          - heading "We and our partners process data to provide:" [level=3] [ref=e554]
+          - paragraph [ref=e556]:
+            - text: Store and/or access information on a device. Use limited data to select advertising. Create profiles for personalised advertising. Use profiles to select personalised advertising. Create profiles to personalise content. Use profiles to select personalised content. Measure advertising performance. Measure content performance. Understand audiences through statistics or combinations of data from different sources. Develop and improve services. Use limited data to select content.
+            - button "List of Partners (vendors)" [ref=e557] [cursor=pointer]
+      - generic [ref=e559]:
+        - button "Accept All" [ref=e560] [cursor=pointer]
+        - button "Reject All" [ref=e561] [cursor=pointer]
+        - button "Show Purposes, Opens the preference center dialog" [ref=e562] [cursor=pointer]: Show Purposes
+    - button "Close" [ref=e564] [cursor=pointer]

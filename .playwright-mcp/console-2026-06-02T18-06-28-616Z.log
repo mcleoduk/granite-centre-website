@@ -1,0 +1,32 @@
+[     970ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.rockandco.co.uk/granite-vs-quartz-worktops:0
+[    1335ms] [LOG] [launcher] Forced to use event server @ https://launcher.enquirybot.com/index.js:2
+[    1335ms] [LOG] [launcher] Using event server {useEventServer: true, URL: https://load.enquirybot.com} @ https://launcher.enquirybot.com/index.js:2
+[    1336ms] [WARNING] [launcher] Ignoring 'on' for unknown event {event_name: started, callback: } @ https://launcher.enquirybot.com/index.js:2
+[    1343ms] [LOG] autopop @ https://www.rockandco.co.uk/wp-content/plugins/wp-review-slider-pro/public/js/wprev-public.min.js?ver=12.3.1_1:0
+[    1343ms] [LOG] autopop1 @ https://www.rockandco.co.uk/wp-content/plugins/wp-review-slider-pro/public/js/wprev-public.min.js?ver=12.3.1_1:0
+[    1444ms] [LOG] undefined @ https://www.rockandco.co.uk/granite-vs-quartz-worktops:235
+[    1580ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'replace')
+    at <anonymous> (https://launcher.enquirybot.com/index.js:2:73722)
+    at u (https://launcher.enquirybot.com/index.js:0:38195)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:37948)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:38558)
+    at ke (https://launcher.enquirybot.com/index.js:2:71122)
+    at a (https://launcher.enquirybot.com/index.js:2:71326)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:2:71387)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:2:71266)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:2:89324)
+    at Ge (https://launcher.enquirybot.com/index.js:2:89394)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:2:89482)
+    at n (https://launcher.enquirybot.com/index.js:0:357)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:43570)
+    at n (https://launcher.enquirybot.com/index.js:0:357)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:1156)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:1166)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:218)
+    at <anonymous> (https://launcher.enquirybot.com/index.js:0:222)
+[    1586ms] [LOG] [launcher] "connecting" to event server {baseUrl: https://load.enquirybot.com, botId: b767f9eb-b24c-46a3-a61d-71770708a7ca, getBotDataParams: Object} @ https://launcher.enquirybot.com/index.js:2
+[    1795ms] [LOG] [launcher] Connected to event_server {url: https://load.enquirybot.com/events/server?script=launcher&event_type=connect, body: Object} @ https://launcher.enquirybot.com/index.js:2
+[    1795ms] [LOG] [launcher] Trigger on::connect event {event_name: connect, data: Object} @ https://launcher.enquirybot.com/index.js:2
+[    2074ms] [LOG] [launcher] Received botData. Adding to cache {data: Object, message: Event "bot_data" processed successfully.} @ https://launcher.enquirybot.com/index.js:2
+[    2074ms] [LOG] [launcher] Trigger on::initialize event {event_name: initialize, data: Object} @ https://launcher.enquirybot.com/index.js:2
+[    3075ms] [LOG] [launcher] GA4 Enabled. Fetched Client ID: null @ https://launcher.enquirybot.com/index.js:2
